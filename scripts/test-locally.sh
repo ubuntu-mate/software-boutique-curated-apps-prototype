@@ -7,12 +7,12 @@ cd "$(dirname '$0')"
 local_cache="~/.cache/software-boutique"
 
 # (1) Build the index first.
-echo "Building index..."
+echo -e "\033[93mBuilding index...\033[0m"
 python3 ./build-index.py
 if [ ! $? == 0 ]; then exit 1; fi
 
 # (2) Prepare what will appear on the web server
-echo "Preparing for distribution..."
+echo -e "\033[93mPacking for distribution...\033[0m"
 ./post-build.sh
 if [ ! $? == 0 ]; then exit 1; fi
 
@@ -21,6 +21,11 @@ if [ -d "$local_cache" ]; then
     rm -rf "$local_cache"
 fi
 
-# (4) Host the web server for testing.
-cd ../dist/
-python -m SimpleHTTPServer 8000
+# (4) Ready to host the web server for testing.
+if [ "$1" == "--build-only" ]; then
+    exit 0
+else
+    killall test-locally.sh &>/dev/null
+    cd dist/
+    python -m SimpleHTTPServer 8000
+fi
