@@ -9,16 +9,16 @@ Contains the curvated applications to be used by Software Boutique, stored in `s
 Every application requires:
 
 * `metadata.json` - As described in `docs/metadata.json.txt`
-* `icon.png` - The icon for this application.
+* `icon.png` - Application's icon that is PNG and exactly 64x64.
 * `screenshot-1.jpg` - Screenshot of this application. More can be added by incrementing the number prefix.
 
-However, there will be scripts that will fetch the data from upstream sources, such as AppStream
+However, in future, there will be scripts that will fetch the data from upstream sources, such as AppStream
 to avoid duplication of data.
 
 ### Distribution
 
 The data used for Software Boutique is stored on this server so that the application
-only needs tone source for our picks.
+only needs one source for our picks.
 
 The web folder will include:
 
