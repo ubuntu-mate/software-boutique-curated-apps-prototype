@@ -3,7 +3,7 @@
 # Builds and hosts a web server for testing locally.
 #
 
-cd "$(dirname '$0')"
+cd "$(dirname $0)"
 local_cache="~/.cache/software-boutique"
 
 # (1) Build the index first.
@@ -25,7 +25,7 @@ fi
 if [ "$1" == "--build-only" ]; then
     exit 0
 else
-    killall test-locally.sh &>/dev/null
-    cd dist/
+    cd ../dist/
+    touch /tmp/boutique-dev.lock
     python -m SimpleHTTPServer 8000
 fi
