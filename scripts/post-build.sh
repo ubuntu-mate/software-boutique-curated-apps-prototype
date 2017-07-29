@@ -24,7 +24,7 @@ gzip *.json
 
 # Compress application data
 cd ../compiled/
-tar -cf - icons/ screenshots/ | xz -9 > ../dist/application-data.tar.xz     # 8.9 MB
+tar -cf - icons/ screenshots/ | xz -9 -e > ../dist/application-data.tar.xz     # 8.9 MB
 cd ../dist/
 
 # Generate SHA256SUMS for client to verify
