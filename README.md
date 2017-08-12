@@ -2,6 +2,8 @@
 
 This repository stores data used by the Software Boutique application.
 
+[![Build Status](https://travis-ci.org/ubuntu-mate/ubuntu-mate.software.svg?branch=master)](https://travis-ci.org/ubuntu-mate/ubuntu-mate.software)
+
 ### Sources
 
 Contains the curvated applications to be used by Software Boutique, stored in `sources/apps`.
