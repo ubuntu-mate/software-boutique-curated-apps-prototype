@@ -41,16 +41,11 @@ known_arch = ["i386", "amd64", "armhf", "arm64", "powerpc", "ppc64el"]
 known_methods = ["dummy", "apt", "snap"]
 known_sources = ["main", "universe", "restricted", "multiverse", "partner", "manual"] # and ppa:*
 
-# Requires software-boutique folder adjacent to this repository
-if not os.path.exists(os.path.join(repo_root, "../software-boutique")):
-    print_msg(1, "The software-boutique repository is required.")
-    print_msg(1, "It is expected this exists in the folder next to this repo.")
-    exit(1)
-
-# Locales used - based on main application's translations.
-locale_dir = glob.glob(repo_root + "/source/locale/*.po")
+# Locales used.
+locale_dir = glob.glob(localised_folder + "/*.po")
 locales = []
 for locale in locale_dir:
+    print("Locale found: " + locale)
     locales.append(os.path.basename(locale[:-3]))
 
 # Begin!

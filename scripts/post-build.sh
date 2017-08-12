@@ -6,9 +6,16 @@
 #   => dist/
 #
 
-cd "$(dirname '$0')"/../
+repo_root="$(dirname $0)/../"
+
+# Ensure the build exists first
+if [ ! -d "$repo_root/compiled/" ]; then
+    echo "Compiled data does not exist!"
+    exit 1
+fi
 
 # Initialise a new folder for deployment
+cd "$repo_root"
 if [ -d dist/ ]; then
     rm -r dist/
 fi
@@ -31,4 +38,4 @@ cd ../dist/
 sha256sum * > SHA256SUMS
 
 # Sign the SHA256SUMS so client knows it's by us.
-# FIXME: Sign SHA256SUMS automatically!
+# TODO: Sign SHA256SUMS!
