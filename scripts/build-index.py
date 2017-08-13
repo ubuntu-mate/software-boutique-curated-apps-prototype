@@ -41,12 +41,19 @@ known_arch = ["i386", "amd64", "armhf", "arm64", "powerpc", "ppc64el"]
 known_methods = ["dummy", "apt", "snap"]
 known_sources = ["main", "universe", "restricted", "multiverse", "partner", "manual"] # and ppa:*
 
-# Locales used.
-locale_dir = glob.glob(localised_folder + "/*.po")
-locales = []
+# Determine locales that have been translated.
+locale_dir = glob.glob(localised_folder + "/*/*.po")
+raw_locales = []
 for locale in locale_dir:
-    print("Locale found: " + locale)
-    locales.append(os.path.basename(locale[:-3]))
+    locale_id = os.path.basename(locale.split("/")[-1][:-3])
+    raw_locales.append(locale_id)
+
+locales = []
+print_msg(4, "Locales used:")
+for locale in raw_locales:
+  if locale not in locales:
+    locales.append(locale)
+    print_msg(4, "- " + locale)
 
 # Begin!
 print_msg(4, "Compiling index...")
@@ -252,19 +259,28 @@ new_index["stats"] = {
 }
 
 # Save new index to file
-with open(os.path.join(compiled_folder, "applications-en.json"), 'w') as f:
+new_index_path = os.path.join(compiled_folder, "applications-en.json")
+with open(new_index_path, 'w') as f:
     json.dump(new_index, f, sort_keys=True)
 
 # Now assemble translatable versions of the index.
 print_msg(4, "Compiling localised indexes...")
+
+def copy_original_index():
+    with open(new_index_path) as f:
+        data = json.load(f)
+    return data
+
 for locale in locales:
-    localised_index = new_index.copy()
+    print("=> " + locale, end=" : ")
+    localised_index = copy_original_index()
     for category in categories:
         apps = os.listdir(os.path.join(source_folder, category))
         for appid in apps:
             try:
                 # Only translate the app if a PO file exists for it.
                 if os.path.exists(os.path.join(localised_folder, appid, locale + ".po")):
+                    print(".", end="")
                     temp_json = "/tmp/" + appid + ".json"
                     # po2json "damages" the structure, so just take what we need.
                     os.system("po2json {0}/{1}/{2}.po -t {3}/{4}/{1}/metadata.json -o ".format(localised_folder, appid, locale, source_folder, category) + temp_json + " --progress none")
@@ -278,9 +294,10 @@ for locale in locales:
             except Exception:
                 print_msg(1, "{0}/{1} = Failed to translate metadata!".format(category, appid))
                 continue
+    print("")
 
     # Save this localised index
-    with open(os.path.join(compiled_folder, locale + ".json"), 'w') as f:
-        json.dump(new_index, f, sort_keys=True)
+    with open(os.path.join(compiled_folder, "applications-" + locale + ".json"), 'w') as f:
+        json.dump(localised_index, f, sort_keys=True)
 
 print_msg(2, "Index ready to go.")
