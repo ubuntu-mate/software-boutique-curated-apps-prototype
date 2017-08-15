@@ -1,0 +1,35 @@
+{
+    "listed": true,
+    "name": "Orca",
+    "summary": "Screen reader for visually impaired users",
+    "developer-name": "GNOME Team",
+    "developer-url": "https://www.gnome.org/",
+    "description": "A scriptable screen reader that defines a set of default behaviors (reactions to application events) and key bindings (reaction to user key presses). These default behaviors and key bindings can be overwritten on a per-application basis. <br><br>Clicking &#8217;Upgrade&#8217; will ensure Orca, and other components in the accessibility stack, always stays up-to-date with the latest stable release. ",
+    "tags": "Accesibility, Screen Reader, Visually Impaired",
+    "launch-cmd": "orca",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://wiki.gnome.org/Projects/Orca",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "gnome-orca",
+            "install-packages": [
+                "gnome-orca"
+            ],
+            "remove-packages": [],
+            "source": "main"
+        }
+    }
+}
