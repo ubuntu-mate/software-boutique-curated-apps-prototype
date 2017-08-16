@@ -1,0 +1,37 @@
+{
+    "listed": true,
+    "name": "App Grid",
+    "summary": "A fast, elegant and grid-looking software center.",
+    "developer-name": "pgg",
+    "developer-url": "https://launchpad.net/~pgg",
+    "description": "Helps you discover and install apps for Ubuntu MATE. Written from scratch, App Grid delivers stunning startup speed, and swift reactions throughout. A clean and simple design makes App Grid a joy to use. No confusion, no frustration. Discover the best of Open Source in the Ubuntu archives. Or purchase additional apps via Ubuntu One. Complete with ratings, reviews and screenshots. ",
+    "tags": "Software Center, Applications, Software",
+    "launch-cmd": "appgrid",
+    "proprietary": true,
+    "alternate-to": null,
+    "urls": {
+        "info": "http://www.appgrid.org/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "appgrid",
+            "install-packages": [
+                "appgrid"
+            ],
+            "remove-packages": [
+                "appgrid"
+            ],
+            "source": "main"
+        }
+    }
+}
