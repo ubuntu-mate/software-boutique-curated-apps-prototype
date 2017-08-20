@@ -1,0 +1,42 @@
+{
+    "listed": true,
+    "name": "Etcher",
+    "summary": "Tool for writing images to USB drives and SD cards.",
+    "developer-name": "resin.io",
+    "developer-url": "https://resin.io",
+    "description": "Etcher is a cross-platform tool for writing images to USB drives and SD cards, aiming to be really simple to prevent accidental damage to hard drives while checking every bit of data was written correctly. ",
+    "tags": "Disk Imager",
+    "launch-cmd": "etcher-electron",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://etcher.io/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "etcher-electron",
+            "install-packages": [
+                "etcher-electron"
+            ],
+            "remove-packages": [
+                "etcher-electron"
+            ],
+            "source": "manual",
+            "list-file": "etcher.list",
+            "list-key-server": ["hkp://pgp.mit.edu:80", "379CE192D401AB61"]
+        }
+    }
+}

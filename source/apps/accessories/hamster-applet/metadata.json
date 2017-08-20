@@ -1,0 +1,44 @@
+{
+    "listed": true,
+    "name": "Time Tracker",
+    "summary": "Track how much time you spend on activities during the day.",
+    "developer-name": "Various Contributors",
+    "developer-url": "https://github.com/projecthamster/hamster/graphs/contributors",
+    "description": "Helps you to keep track of how much time you spend on various activities during the day. Whenever you move from one task to another, you change your current activity in the applet. It can present graphical statistics of how long you have spent on each task, and may be useful for project management or keeping employee timesheets. ",
+    "tags": "Productivity Tracking, Activities, Management",
+    "launch-cmd": "hamster-time-tracker",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://projecthamster.wordpress.com/about/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "hamster-applet",
+            "install-packages": [
+                "hamster-applet",
+                "hamster-indicator"
+            ],
+            "remove-packages": [
+                "hamster-applet",
+                "hamster-indicator"
+            ],
+            "source": "universe"
+        }
+    }
+}

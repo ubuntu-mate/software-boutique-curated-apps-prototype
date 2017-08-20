@@ -1,0 +1,42 @@
+{
+    "listed": true,
+    "name": "Alarm Clock",
+    "summary": "A small yet powerful alarm clock for your notification area.",
+    "developer-name": "Johannes H. Jensen & Contributors",
+    "developer-url": "https://github.com/joh/alarm-clock/blob/master/AUTHORS",
+    "description": "A fully-featured alarm clock which resides in the notification area. It is easy to use yet powerful with support for multiple and repeatable alarms, as well as snoozing and a flexible notification system. Two types of alarms are supported: Alarm Clocks and Timers. Notification is done by either playing a sound or launching an application. ",
+    "tags": "Clock, Alarm, Reminders, Applet",
+    "launch-cmd": "alarm-clock-applet",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "http://alarm-clock.pseudoberries.com/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "alarm-clock-applet",
+            "install-packages": [
+                "alarm-clock-applet"
+            ],
+            "remove-packages": [
+                "alarm-clock-applet"
+            ],
+            "source": "universe"
+        }
+    }
+}

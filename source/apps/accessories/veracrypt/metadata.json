@@ -1,0 +1,39 @@
+{
+    "listed": true,
+    "name": "VeraCrypt",
+    "summary": "Software for maintaining on-the-fly encrypted volumes.",
+    "developer-name": "IDRIX",
+    "developer-url": "https://www.idrix.fr/",
+    "description": "Software for establishing and maintaining an on-the-fly-encrypted volume. The encrypted volume can be a virtual encrypted disk within a file, a partition or complete device such as a USB stick or disk drive. <ul><li><b>Successor to: </b><i>TrueCrypt</i></li></ul> ",
+    "tags": "Encryption, Security, Filesystems",
+    "launch-cmd": "veracrypt",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://veracrypt.codeplex.com/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "veracrypt",
+            "install-packages": [
+                "veracrypt"
+            ],
+            "remove-packages": [
+                "veracrypt"
+            ],
+            "source": "ppa:unit193/encryption"
+        }
+    }
+}

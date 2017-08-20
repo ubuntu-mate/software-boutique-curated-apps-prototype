@@ -1,0 +1,42 @@
+{
+    "listed": true,
+    "name": "Variety",
+    "summary": "Automatically change your desktop background throughout the day.",
+    "developer-name": "Peter Levi",
+    "developer-url": "https://launchpad.net/~peterlevi",
+    "description": "Changes the desktop wallpaper regularly, using local or automatically downloaded images. Variety sits conveniently as an indicator in the panel and can be easily paused and resumed. The mouse wheel can be used to scroll wallpapers back and forth. Variety can fetch wallpapers from various online sources, such as Flickr. ",
+    "tags": "Cosmetic, Desktop",
+    "launch-cmd": "variety",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "http://peterlevi.com/variety/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "variety",
+            "install-packages": [
+                "variety"
+            ],
+            "remove-packages": [
+                "variety"
+            ],
+            "source": "universe"
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "listed": true,
+    "name": "Recent Notifications",
+    "summary": "Collects notifications and keeps an icon in the notification area.",
+    "developer-name": "Jason Conti",
+    "developer-url": "http://bazaar.launchpad.net/~jconti/recent-notifications/trunk/view/head:/AUTHORS",
+    "description": "An indicator that collects recent notification messages and stores them in a history so you can review any notifications you may have missed while away from your computer. <ul><li><b>Note: </b><i>Recent Notifications works best with <u>Indicators enabled</u> via <a onclick=\"cmd('run?mate-tweak')\"> MATE Tweak</a>.</i></li></ul> ",
+    "tags": "Desktop Management, Notifications, Applet",
+    "launch-cmd": null,
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://launchpad.net/recent-notifications",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "indicator-notifications",
+            "install-packages": [
+                "indicator-notifications",
+                "indicator-notifications-gtk2"
+            ],
+            "remove-packages": [
+                "indicator-notifications",
+                "indicator-notifications-gtk2"
+            ],
+            "source": "ppa:jconti/recent-notifications"
+        }
+    }
+}
