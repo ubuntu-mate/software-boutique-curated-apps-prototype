@@ -29,7 +29,7 @@
                 "gnome-orca"
             ],
             "remove-packages": [],
-            "source": "main"
+            "source": "ppa:accessibility-dev/ppa"
         }
     }
 }

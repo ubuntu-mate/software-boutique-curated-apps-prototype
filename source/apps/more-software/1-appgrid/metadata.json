@@ -31,7 +31,7 @@
             "remove-packages": [
                 "appgrid"
             ],
-            "source": "main"
+            "source": "ppa:appgrid/stable"
         }
     }
 }
