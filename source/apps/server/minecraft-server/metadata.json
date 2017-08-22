@@ -1,0 +1,40 @@
+{
+    "listed": true,
+    "name": "Minecraft Server",
+    "summary": "The official server for creating multi-player Minecraft worlds.",
+    "developer-name": "Mojang",
+    "developer-url": "https://www.mojang.com",
+    "description": "Installs the official server so you can create your own multi-player world to play with family and friends. <br><br>When installed, run <code>minecraft-server</code> in the folder used for the server <br>To learn more on setting up, see the <a onclick=\"cmd('link?http://minecraft.gamepedia.com/Setting_up_a_server')\"> Minecraft Wiki </A>. ",
+    "tags": "Server, Gaming",
+    "launch-cmd": null,
+    "proprietary": true,
+    "alternate-to": null,
+    "urls": {
+        "info": "http://minecraft.gamepedia.com/Setting_up_a_server",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "minecraft-server-installer",
+            "install-packages": [
+                "minecraft-server-installer"
+            ],
+            "remove-packages": [
+                "minecraft-server-installer"
+            ],
+            "source": "ppa:flexiondotorg/minecraft"
+        }
+    }
+}

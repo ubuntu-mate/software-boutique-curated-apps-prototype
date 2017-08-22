@@ -1,0 +1,44 @@
+{
+    "listed": true,
+    "name": "OpenSSH",
+    "summary": "Allows you to connect to this computer over SSH/SFTP.",
+    "developer-name": "Various Contributors",
+    "developer-url": "https://www.openssh.com/history.html",
+    "description": "A suite of software utilising the <code>ssh</code> protocol to securely connect to another computer. The protocol uses encryption and multiple authentication methods to provide secure tunneling as well as support for SFTP and X11 forwarding. <ul><li><b>Note: </b><i>This will also install <code>sshguard</code> to protect your computer from network attacks.</i></li></ul> ",
+    "tags": "Server",
+    "launch-cmd": null,
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://www.openssh.com/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "ssh",
+            "install-packages": [
+                "ssh",
+                "sshguard"
+            ],
+            "remove-packages": [
+                "ssh",
+                "sshguard"
+            ],
+            "source": "main"
+        }
+    }
+}
