@@ -1,0 +1,41 @@
+{
+    "listed": true,
+    "name": "Visual Studio Code",
+    "summary": "Cross-platform source code editor from Microsoft.",
+    "developer-name": "Microsoft Corporation",
+    "developer-url": "https://code.visualstudio.com/",
+    "description": "Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Python, PHP, Go) and runtimes (such as .NET and Unity). ",
+    "tags": "IDEs",
+    "launch-cmd": "code",
+    "proprietary": true,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://code.visualstudio.com/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "code",
+            "install-packages": [
+                "code"
+            ],
+            "remove-packages": [
+                "code"
+            ],
+            "source": "manual",
+            "list-file": "vscode",
+            "list-key-url": "https://packages.microsoft.com/keys/microsoft.asc"
+        }
+    }
+}
