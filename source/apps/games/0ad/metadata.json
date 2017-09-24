@@ -1,0 +1,41 @@
+{
+    "listed": true,
+    "name": "0 A.D",
+    "summary": "Cross-platform real-time strategy (RTS) game of ancient warfare",
+    "developer-name": "Wildfire Games",
+    "developer-url": "https://trac.wildfiregames.com/",
+    "description": "A free, open-source,  In short, it is a historically-based war/economy game that allows players to relive or rewrite the history of Western civilisations, focusing on the years between 500 B.C. and 500 A.D. The project is highly ambitious, involving state-of-the-art 3D graphics, detailed artwork, sound, and a flexible and powerful custom-built game engine. ",
+    "tags": "Real-time Strategy",
+    "launch-cmd": "0ad",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "http://play0ad.com/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "0ad",
+            "install-packages": [
+                "0ad"
+            ],
+            "remove-packages": [
+                "0ad",
+                "0ad-data"
+            ],
+            "source": "universe"
+        }
+    }
+}

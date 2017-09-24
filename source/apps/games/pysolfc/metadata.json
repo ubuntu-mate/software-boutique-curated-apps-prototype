@@ -1,0 +1,44 @@
+{
+    "listed": true,
+    "name": "PySolFC",
+    "summary": "A collection of more than 1000 solitaire card games",
+    "developer-name": "Various Contributors",
+    "developer-url": "https://github.com/shlomif/PySolFC/blob/master/AUTHORS",
+    "description": "There are games that use the 52 card International Pattern deck, games for the 78 card Tarock deck, eight and ten suit Ganjifa games, Hanafuda games, Matrix games, Mahjongg games, and games for an original hexadecimal-based deck. Its features include modern look and feel, multiple cardsets and tableau backgrounds, sound, unlimited undo, player statistics, a hint system, demo games, a solitaire wizard, support for user written plug-ins, an integrated HTML help browser, and lots of documentation. ",
+    "tags": "Card and Board Games",
+    "launch-cmd": "pysolfc",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "http://pysolfc.sourceforge.net/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "pysolfc",
+            "install-packages": [
+                "pysolfc",
+                "pysolfc-cardsets"
+            ],
+            "remove-packages": [
+                "pysolfc",
+                "pysolfc-cardsets"
+            ],
+            "source": "universe"
+        }
+    }
+}

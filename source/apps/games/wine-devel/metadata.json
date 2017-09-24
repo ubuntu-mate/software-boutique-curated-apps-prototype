@@ -1,0 +1,41 @@
+{
+    "listed": true,
+    "name": "Wine Development Builds",
+    "summary": "Compatibility layer for running Windows games and applications",
+    "developer-name": "Wine Team and Many Contributors",
+    "developer-url": "https://source.winehq.org/source/AUTHORS",
+    "description": "The latest, official development builds of the Wine Compatibility Layer. These allow you to play a wider range of Windows games and software as soon as new versions of Wine are released. ",
+    "tags": "Compatibility",
+    "launch-cmd": null,
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://www.winehq.org/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "winehq-devel",
+            "install-packages": [
+                "winehq-devel"
+            ],
+            "remove-packages": [
+                "winehq-devel"
+            ],
+            "source": "manual",
+            "list-file": "wine-builds",
+            "list-key-url": "https://dl.winehq.org/wine-builds/Release.key"
+        }
+    }
+}

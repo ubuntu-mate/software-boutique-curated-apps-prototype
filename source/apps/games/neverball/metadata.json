@@ -1,0 +1,44 @@
+{
+    "listed": true,
+    "name": "Neverball",
+    "summary": "Tilt the floor to roll a ball through an obstacle course before time runs out",
+    "developer-name": "Various Contributors",
+    "developer-url": "http://neverball.org/contributors.php",
+    "description": "Guide a rolling ball through dangerous territory in the grand tradition of Marble Madness and Super Monkey Ball. Balance on narrow bridges, navigate mazes, ride moving platforms, and dodge pushers and shovers to get to the goal. Race against the clock to collect coins to earn extra balls. ",
+    "tags": "Puzzle",
+    "launch-cmd": "neverball",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "http://neverball.org/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "neverball",
+            "install-packages": [
+                "neverball",
+                "neverball-data"
+            ],
+            "remove-packages": [
+                "neverball",
+                "neverball-data"
+            ],
+            "source": "universe"
+        }
+    }
+}

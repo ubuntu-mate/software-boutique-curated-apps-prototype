@@ -1,0 +1,40 @@
+{
+    "listed": true,
+    "name": "RetroArch",
+    "summary": "Frontend for emulators for various systems",
+    "developer-name": "RetroArch Team",
+    "developer-url": "https://github.com/orgs/libretro/people",
+    "description": "RetroArch is an open source, multi-platform frontend for the libretro API. It is designed to be a fast, lightweight, and portable multi-system emulator. ",
+    "tags": "Game Management",
+    "launch-cmd": "retroarch",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "http://libretro.com",
+        "android-app": "https://play.google.com/store/apps/details?id=com.retroarch",
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "retroarch",
+            "install-packages": [
+                "retroarch"
+            ],
+            "remove-packages": [
+                "retroarch",
+                "retroarch-assets"
+            ],
+            "source": "universe"
+        }
+    }
+}

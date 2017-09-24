@@ -1,0 +1,40 @@
+{
+    "listed": true,
+    "name": "Flightgear",
+    "summary": "Open source flight simulator",
+    "developer-name": "Flightgear Team",
+    "developer-url": "http://www.flightgear.org/about/credits/",
+    "description": "The goal of the FlightGear project is to create a sophisticated and open flight simulator framework for use in research, academic environments, pilot training, as an industry engineering tool and last but certainly not least, as a fun, realistic, and challenging desktop flight simulator. ",
+    "tags": "Simulation",
+    "launch-cmd": "flightgear",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "http://www.flightgear.org/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "flightgear",
+            "install-packages": [
+                "flightgear"
+            ],
+            "remove-packages": [
+                "flightgear"
+            ],
+            "source": "universe"
+        }
+    }
+}
