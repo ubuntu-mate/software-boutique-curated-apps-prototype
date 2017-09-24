@@ -1,0 +1,40 @@
+{
+    "listed": true,
+    "name": "Tor Browser",
+    "summary": "Browse the web while protecting your anonymity",
+    "developer-name": "The Tor Project",
+    "developer-url": "https://www.torproject.org/about/corepeople.html.en",
+    "description": "Lets you use Tor without needing to install any additional software. It comes with a pre-configured web browser to protect your anonymity, and is self-contained. Tor Browser protects you by bouncing your communications around a distributed network of relays run by volunteers all around the world: it prevents somebody watching your Internet connection from learning what sites you visit, it prevents the sites you visit from learning your physical location, and it lets you access sites which are blocked. ",
+    "tags": "Web Browser",
+    "launch-cmd": "torbrowser-launcher",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://www.torproject.org/projects/torbrowser.html",
+        "android-app": "https://play.google.com/store/apps/details?id=org.torproject.android",
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "torbrowser-launcher",
+            "install-packages": [
+                "torbrowser-launcher"
+            ],
+            "remove-packages": [
+                "torbrowser-launcher"
+            ],
+            "source": "universe"
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "listed": true,
+    "name": "Chromium",
+    "summary": "The open source version of Google Chrome",
+    "developer-name": "Various Contributors",
+    "developer-url": "https://chromium.googlesource.com/chromium/src/+/master/AUTHORS",
+    "description": "The project aims to build a safer, faster, and more stable way for all Internet users to experience the web. ",
+    "tags": "Web Browser",
+    "launch-cmd": "chromium-browser",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://www.chromium.org/Home",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "chromium-browser",
+            "install-packages": [
+                "chromium-browser",
+                "chromium-codecs-ffmpeg-extra"
+            ],
+            "remove-packages": [
+                "chromium-browser",
+                "chromium-codecs-ffmpeg-extra"
+            ],
+            "source": "universe"
+        }
+    }
+}

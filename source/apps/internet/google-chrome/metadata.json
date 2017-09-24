@@ -1,0 +1,41 @@
+{
+    "listed": true,
+    "name": "Google Chrome",
+    "summary": "A fast, secure, and free web browser built for the modern web.",
+    "developer-name": "Google",
+    "developer-url": "https://www.google.com/about/",
+    "description": "The web browser from Google that combines a minimal design with sophisticated technology to make the web faster, safer, and easier. If you are a <b>Netflix</b> subscriber then Google Chrome fully supports Netflix.",
+    "tags": "Web Browser",
+    "launch-cmd": "google-chrome-stable",
+    "proprietary": true,
+    "alternate-to": null,
+    "urls": {
+        "info": "http://www.google.com/chrome/",
+        "android-app": "https://play.google.com/store/apps/details?id=com.android.chrome",
+        "ios-app": "https://itunes.apple.com/gb/app/chrome-web-browser-by-google/id535886823"
+    },
+    "arch": [
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "google-chrome-stable",
+            "install-packages": [
+                "google-chrome-stable"
+            ],
+            "remove-packages": [
+                "google-chrome-stable"
+            ],
+            "source": "manual",
+            "list-file": "google-chrome.list",
+            "list-key-url": "http://dl.google.com/linux/linux_signing_key.pub"
+        }
+    }
+}

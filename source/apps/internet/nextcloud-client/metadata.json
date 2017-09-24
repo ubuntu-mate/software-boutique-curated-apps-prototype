@@ -1,0 +1,41 @@
+{
+    "listed": true,
+    "name": "Nextcloud Client",
+    "summary": "Synchronize files from a Nextcloud server",
+    "developer-name": "Nextcloud Team",
+    "developer-url": "https://nextcloud.com/team/",
+    "description": "A tool to synchronize files from a Nextcloud Server with your computer. ",
+    "tags": "Cloud and Sync",
+    "launch-cmd": "nextcloud",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://nextcloud.com/",
+        "android-app": "https://play.google.com/store/apps/details?id=com.nextcloud.client",
+        "ios-app": "https://itunes.apple.com/gb/app/nextcloud/id1125420102"
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "nextcloud-client-caja",
+            "install-packages": [
+                "nextcloud-client",
+                "nextcloud-client-caja"
+            ],
+            "remove-packages": [
+                "nextcloud-client",
+                "nextcloud-client-caja"
+            ],
+            "source": "ppa:nextcloud-devs/client"
+        }
+    }
+}

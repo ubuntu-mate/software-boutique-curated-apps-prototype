@@ -1,0 +1,40 @@
+{
+    "listed": true,
+    "name": "Gobby",
+    "summary": "Collaboratively edit text documents over a network",
+    "developer-name": "Various Contributors",
+    "developer-url": "https://github.com/gobby/gobby/blob/master/AUTHORS",
+    "description": "An editor which allows one to edit text documents and source files collaboratively over a network. All users could work on the file simultaneously without the need to lock it. The parts the various users write are highlighted in different colours and it supports syntax highlighting of various programming and markup languages. ",
+    "tags": "Collaboration",
+    "launch-cmd": "gobby",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://gobby.github.io",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "gobby",
+            "install-packages": [
+                "gobby"
+            ],
+            "remove-packages": [
+                "gobby"
+            ],
+            "source": "universe"
+        }
+    }
+}

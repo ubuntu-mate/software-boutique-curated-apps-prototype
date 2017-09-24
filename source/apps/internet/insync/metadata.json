@@ -1,0 +1,47 @@
+{
+    "listed": true,
+    "name": "Insync",
+    "summary": "Sync your Google Drive files to your computer",
+    "developer-name": "Insync",
+    "developer-url": "https://www.insynchq.com/about",
+    "description": "An application that syncs your Google Drive files to your computer. It has more advanced features than Google&#8217;s official client such as multiple account support, Google Docs conversion, symlink support, and built in sharing. <u>Insync is a commercial application</u>, if you wish to continue using it after the evaluation period <a onclick=\"cmd('link?https://www.insynchq.com/pricing')\"> you will have to pay for it.</a> <ul><li><b>Equivalent to: </b><i>Google Drive Client</i></li></ul> ",
+    "tags": "Cloud and Sync",
+    "launch-cmd": "insync",
+    "proprietary": true,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://www.insynchq.com/",
+        "android-app": "https://play.google.com/store/apps/details?id=com.google.android.apps.docs",
+        "ios-app": "https://itunes.apple.com/gb/app/google-drive-free-online-storage/id507874739"
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "insync",
+            "install-packages": [
+                "insync",
+                "insync-caja"
+            ],
+            "remove-packages": [
+                "insync",
+                "insync-caja"
+            ],
+            "source": "manual",
+            "list-file": "insync.list",
+            "list-key-server": [
+                "keyserver.ubuntu.com",
+                "ACCAF35C"
+            ]
+        }
+    }
+}

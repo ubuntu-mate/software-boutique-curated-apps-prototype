@@ -1,0 +1,42 @@
+{
+    "listed": true,
+    "name": "Liferea",
+    "summary": "Feed reader, news reader and podcast client",
+    "developer-name": "Various Contributors",
+    "developer-url": "https://github.com/lwindolf/liferea/blob/master/AUTHORS",
+    "description": "A feed reader, a news reader, and a podcast client that brings together all of the content from your favorite web subscriptions into a simple interface with an embedded graphical browser that's easy to organize and browse. It supports aggregating feeds in all the major syndication formats, synchronizing feeds across devices, with TinyTinyRSS and TheOldReader support. Liferea can download articles for offline reading, play podcasts directly in Liferea&#8217;s browser interface and has social networking / web integration so you can share your favorite news articles to Facebook, Google+, Reddit, Twitter, Slashdot, Digg, Yahoo and many more. ",
+    "tags": "Feed Reader, News Reader, Podcasts",
+    "launch-cmd": "liferea",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://lzone.de/liferea/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "liferea",
+            "install-packages": [
+                "liferea"
+            ],
+            "remove-packages": [
+                "liferea"
+            ],
+            "source": "universe"
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "listed": true,
+    "name": "Transmission",
+    "summary": "Lightweight BitTorrent client",
+    "developer-name": "Various Contributors",
+    "developer-url": "https://github.com/transmission/transmission/blob/master/AUTHORS",
+    "description": "Transmission is a set of lightweight BitTorrent clients (in GUI, CLI and daemon form). All its incarnations feature a very simple, intuitive interface on top on an efficient, cross-platform back-end. ",
+    "tags": "Download Manager, BitTorrent",
+    "launch-cmd": "transmission-gtk",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://transmissionbt.com/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "transmission-gtk",
+            "install-packages": [
+                "transmission-gtk"
+            ],
+            "remove-packages": [
+                "transmission-gtk"
+            ],
+            "source": "main"
+        }
+    }
+}

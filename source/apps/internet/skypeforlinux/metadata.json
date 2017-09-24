@@ -1,0 +1,41 @@
+{
+    "listed": true,
+    "name": "Skype for Linux Beta",
+    "summary": "Chat and call other Skype users across devices",
+    "developer-name": "Microsoft Corporation",
+    "developer-url": "https://support.skype.com/en/faq/FA34656/more-information-about-skype-for-linux-beta",
+    "description": "Skype is software that enables the world's conversations. Millions of individuals and businesses use Skype to make free video and voice calls, send instant messages and share files with other Skype users. Every day, people also use Skype to make low-cost calls to landlines and mobiles. ",
+    "tags": "Instant Messaging, VoIP",
+    "launch-cmd": "skypeforlinux",
+    "proprietary": true,
+    "alternate-to": null,
+    "urls": {
+        "info": "http://www.skype.com",
+        "android-app": "https://play.google.com/store/apps/details?id=com.skype.raider",
+        "ios-app": "https://itunes.apple.com/gb/app/skype-for-iphone/id304878510"
+    },
+    "arch": [
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "skypeforlinux",
+            "install-packages": [
+                "skypeforlinux"
+            ],
+            "remove-packages": [
+                "skypeforlinux"
+            ],
+            "source": "manual",
+            "list-file": "skype-stable.list",
+            "list-key-url": "https://repo.skype.com/data/SKYPE-GPG-KEY"
+        }
+    }
+}

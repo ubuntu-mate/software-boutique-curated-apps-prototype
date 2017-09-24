@@ -1,0 +1,45 @@
+{
+    "listed": false,
+    "name": "Nylas Mail",
+    "summary": "Cross-platform mail client with an elegant UI",
+    "developer-name": "Nylas Team",
+    "developer-url": "https://www.nylas.com/team/",
+    "description": "Nylas Mail is a beautifully crafted email app that works across on Linux, macOS and Windows. It features an elegant UI and a host of features including Unified Inbox, Open and Link Tracking, Rich Contacts, Undo Send and Quick Reply templates. It offers a delightful experience in managing your inboxes. ",
+    "tags": "Email",
+    "launch-cmd": "nylas-mail",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://www.nylas.com/nylas-mail/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "nylas-mail",
+            "install-packages": [
+                "nylas-mail"
+            ],
+            "remove-packages": [
+                "nylas-mail"
+            ],
+            "source": "manual",
+            "list-file": "nylas.list",
+            "list-key-server": [
+                "keyserver.ubuntu.com",
+                "7D0ACF4A"
+            ]
+        }
+    }
+}

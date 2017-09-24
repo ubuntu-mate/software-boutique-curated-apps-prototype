@@ -1,0 +1,41 @@
+{
+    "listed": true,
+    "name": "ownCloud Client",
+    "summary": "Synchronize files from an ownCloud server.",
+    "developer-name": "ownCloud Team",
+    "developer-url": "https://github.com/orgs/owncloud/people",
+    "description": "A tool to synchronize files from an ownCloud Server with your computer. ",
+    "tags": "Cloud and Sync",
+    "launch-cmd": "owncloud",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://owncloud.org/",
+        "android-app": "https://play.google.com/store/apps/details?id=com.owncloud.android",
+        "ios-app": "https://itunes.apple.com/gb/app/owncloud/id543672169"
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "owncloud-client-caja",
+            "install-packages": [
+                "owncloud-client",
+                "owncloud-client-caja"
+            ],
+            "remove-packages": [
+                "owncloud-client",
+                "owncloud-client-caja"
+            ],
+            "source": "universe"
+        }
+    }
+}

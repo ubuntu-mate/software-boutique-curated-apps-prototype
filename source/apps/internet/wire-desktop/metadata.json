@@ -1,0 +1,42 @@
+{
+    "listed": true,
+    "name": "Wire",
+    "summary": "Secure communication for full privacy",
+    "developer-name": "Wire Swiss GmbH",
+    "developer-url": "https://wire.com/en/impressum/",
+    "description": "Modern communication. Full privacy. Crystal clear voice and video calls. Chats full of pics, movies, GIFs, music, sketches and more. Always private and secure with end-to-end encryption. ",
+    "tags": "Instant Messaging",
+    "launch-cmd": "/opt/wire-desktop/wire-desktop",
+    "proprietary": false,
+    "alternate-to": "WhatsApp",
+    "urls": {
+        "info": "https://wire.com/",
+        "android-app": "https://play.google.com/store/apps/details?id=com.wire",
+        "ios-app": "https://itunes.apple.com/gb/app/wire-private-messenger/id930944768"
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "wire-desktop",
+            "install-packages": [
+                "wire-desktop"
+            ],
+            "remove-packages": [
+                "wire-desktop"
+            ],
+            "source": "manual",
+            "list-file": "wire-desktop.list",
+            "list-key-url": "https://wire-app.wire.com/linux/releases.key"
+        }
+    }
+}

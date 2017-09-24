@@ -1,0 +1,41 @@
+{
+    "listed": true,
+    "name": "Thunderbird",
+    "summary": "Full-featured email, RSS and newsgroup client",
+    "developer-name": "Mozilla",
+    "developer-url": "https://www.mozilla.org/",
+    "description": "Thunderbird is a full-featured email, RSS and newsgroup client that makes emailing safer, faster and easier than ever before. It supports different mail accounts (POP, IMAP, Gmail), has a simple mail account setup wizard, one-click address book, tabbed interface, an integrated learning spam filter, advanced search and indexing capabilities, and offers easy organization of mails with tagging and virtual folders. It also features unrivalled extensibility. ",
+    "tags": "Email",
+    "launch-cmd": "thunderbird",
+    "proprietary": false,
+    "alternate-to": "Microsoft&reg; Outlook",
+    "urls": {
+        "info": "https://www.mozilla.org/en-US/thunderbird/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "thunderbird",
+            "install-packages": [
+                "thunderbird"
+            ],
+            "remove-packages": [
+                "thunderbird"
+            ],
+            "source": "main"
+        }
+    }
+}

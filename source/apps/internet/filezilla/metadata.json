@@ -1,0 +1,42 @@
+{
+    "listed": true,
+    "name": "FileZilla",
+    "summary": "File transfer tool for FTP, FTPS and SFTP (SSH).",
+    "developer-name": "Tim Kosse and Contributors",
+    "developer-url": "https://github.com/zedfoxus/filezilla-client/blob/master/AUTHORS",
+    "description": "A full-featured FTP client with an easy-to-use GUI. Supports FTP, FTP over SSL/TLS (FTPS) and SSH File Transfer Protocol (SFTP). IPv6 support. Available in more than 40 languages. Supports resume and transfer of large files >4GB. Easy to use Site Manager and transfer queue. Bookmarks. Drag & drop support. Speed limits. Filename filters. Directory comparison. Network configuration wizard. Remote file editing. Keep-alive. HTTP/1.1, SOCKS5 and FTP Proxy support. Logging to file. Synchronized directory browsing. Remote file search. Tabbed interface to connect to multiple servers. ",
+    "tags": "Download Manager",
+    "launch-cmd": "filezilla",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://filezilla-project.org/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "filezilla",
+            "install-packages": [
+                "filezilla"
+            ],
+            "remove-packages": [
+                "filezilla"
+            ],
+            "source": "universe"
+        }
+    }
+}

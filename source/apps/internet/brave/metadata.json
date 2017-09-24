@@ -1,0 +1,41 @@
+{
+    "listed": true,
+    "name": "Brave",
+    "summary": "Web browser that blocks ads and trackers",
+    "developer-name": "Brave Software Inc.",
+    "developer-url": "https://brave.com/about/",
+    "description": "Browse faster and safer with Brave. The new Brave browser automatically blocks ads and trackers, making it faster and safer than your current browser. Start supporting publishers today with our new Brave Payments system. ",
+    "tags": "Web Browser",
+    "launch-cmd": "brave",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://brave.com/",
+        "android-app": "https://play.google.com/store/apps/details?id=com.brave.browser",
+        "ios-app": "https://itunes.apple.com/us/app/brave-web-browser-fast-with-built-in-adblock/id1052879175"
+    },
+    "arch": [
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "brave",
+            "install-packages": [
+                "brave"
+            ],
+            "remove-packages": [
+                "brave"
+            ],
+            "source": "manual",
+            "list-file": "brave.list",
+            "list-key-url": "https://s3-us-west-2.amazonaws.com/brave-apt/keys.asc"
+        }
+    }
+}

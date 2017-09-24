@@ -1,0 +1,41 @@
+{
+    "listed": true,
+    "name": "Slack",
+    "summary": "Team communication and collaboration",
+    "developer-name": "Slack Technologies",
+    "developer-url": "https://slack.com/",
+    "description": "Slack brings team communication and collaboration into one place so you can get more work done, whether you belong to a large enterprise or a small business. Check off your to-do list and move your projects forward by bringing the right people, conversations, tools, and information you need together. ",
+    "tags": "Collaboration",
+    "launch-cmd": "slack-desktop",
+    "proprietary": true,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://slack.com/",
+        "android-app": "https://play.google.com/store/apps/details?id=com.Slack&hl=en",
+        "ios-app": "https://itunes.apple.com/gb/app/slack/id803453959?mt=12"
+    },
+    "arch": [
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "slack-desktop",
+            "install-packages": [
+                "slack-desktop"
+            ],
+            "remove-packages": [
+                "slack-desktop"
+            ],
+            "source": "manual",
+            "list-file": "slack.list",
+            "list-key-url": "https://packagecloud.io/slacktechnologies/slack/gpgkey"
+        }
+    }
+}

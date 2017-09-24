@@ -1,0 +1,41 @@
+{
+    "listed": true,
+    "name": "Hexchat",
+    "summary": "Graphical IRC client",
+    "developer-name": "Various Contributors",
+    "developer-url": "https://github.com/hexchat/hexchat/graphs/contributors",
+    "description": "HexChat is a graphical IRC client with a GTK+ GUI. Features include Python and Perl scripting support, a plugin API, multiple server/channel windows, spell checking, multiple authentication methods including SASL, and customizable notifications. ",
+    "tags": "Instant Messaging",
+    "launch-cmd": "hexchat",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://hexchat.github.io/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "hexchat",
+            "install-packages": [
+                "hexchat"
+            ],
+            "remove-packages": [
+                "hexchat"
+            ],
+            "source": "universe"
+        }
+    }
+}

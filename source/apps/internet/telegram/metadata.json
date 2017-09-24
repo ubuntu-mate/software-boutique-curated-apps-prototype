@@ -1,0 +1,40 @@
+{
+    "listed": true,
+    "name": "Telegram",
+    "summary": "Messaging app with focus on speed and security",
+    "developer-name": "Telegram Team",
+    "developer-url": "https://telegram.org/faq#q-who-are-the-people-behind-telegram",
+    "description": "A messaging app with a focus on speed and security, it's super fast, simple and free. You can use Telegram on all your devices at the same time - your messages sync seamlessly across any of your phones, tablets or computers. With Telegram, you can send messages, photos, videos and files of any type (doc, zip, mp3, etc), as well as create groups for up to 200 people. You can write to your phone contacts and find people by their usernames. As a result, Telegram is like SMS and email combined - and can take care of all your personal or business messaging needs. ",
+    "tags": "Instant Messaging",
+    "launch-cmd": "/opt/telegram/Telegram",
+    "proprietary": false,
+    "alternate-to": "WhatsApp",
+    "urls": {
+        "info": "https://telegram.org/",
+        "android-app": "https://play.google.com/store/apps/details?id=org.telegram.messenger",
+        "ios-app": "https://itunes.apple.com/gb/app/telegram-messenger/id686449807"
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "telegram",
+            "install-packages": [
+                "telegram"
+            ],
+            "remove-packages": [
+                "telegram"
+            ],
+            "source": "ppa:flexiondotorg/telegram"
+        }
+    }
+}
