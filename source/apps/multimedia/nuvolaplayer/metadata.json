@@ -1,0 +1,46 @@
+{
+    "listed": true,
+    "name": "Nuvola Player",
+    "summary": "Provides integration with web-based music streaming services",
+    "developer-name": "Jiří Janoušek and Maintainers",
+    "developer-url": "https://tiliado.eu/nuvolaplayer/team/",
+    "description": "A runtime for web-based music streaming services providing more native user experience and integration with Linux desktop environments than usual web browsers can offer. It tries to feel and look like a native application as possible. Supports 14 music streaming services, including Amazon Cloud Player, Bandcamp, Google Play Music, Plex Music, Sound Clound, Spotify and TuneIn ",
+    "tags": "Media Playback",
+    "launch-cmd": "nuvolaplayer3",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://tiliado.eu/nuvolaplayer/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "nuvolaplayer3",
+            "install-packages": [
+                "nuvolaplayer3",
+                "nuvolaplayer3-all-services"
+            ],
+            "remove-packages": [
+                "nuvolaplayer3",
+                "nuvolaplayer3-all-services"
+            ],
+            "source": "manual",
+            "list-file": "tiliado-nuvolaplayer.list",
+            "list-key-server": [
+                "keyserver.ubuntu.com",
+                "40554B8FA5FE6F6A"
+            ]
+        }
+    }
+}

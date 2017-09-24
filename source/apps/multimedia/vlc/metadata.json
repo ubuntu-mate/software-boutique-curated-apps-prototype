@@ -1,0 +1,41 @@
+{
+    "listed": true,
+    "name": "VLC",
+    "summary": "Popular libre and open source media player and multimedia engine",
+    "developer-name": "VideoLAN Team and Contributors",
+    "developer-url": "https://github.com/videolan/vlc/blob/master/AUTHORS",
+    "description": "VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs, podcasts, and multimedia streams from various network sources. ",
+    "tags": "Media Playback",
+    "launch-cmd": "vlc",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "http://www.videolan.org/",
+        "android-app": "https://play.google.com/store/apps/details?id=org.videolan.vlc",
+        "ios-app": "https://itunes.apple.com/gb/app/vlc-for-mobile/id650377962"
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "vlc",
+            "install-packages": [
+                "vlc"
+            ],
+            "remove-packages": [
+                "vlc"
+            ],
+            "source": "universe"
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "listed": true,
+    "name": "Codecs Pack",
+    "summary": "Complete collection of codecs for your system",
+    "developer-name": "Ubuntu Repositories",
+    "developer-url": "https://packages.ubuntu.com/search?keywords=libavcodec-extra",
+    "description": "Includes a library that offers a complete, cross-platform solution to decode, encode, record, convert and stream audio and video. It also includes a MP3 audio decoder that permits the playback of MPEG 1 audio layer III (MP3) streams in Rhythmbox. ",
+    "tags": "Codecs",
+    "launch-cmd": null,
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://packages.ubuntu.com/search?keywords=libavcodec-extra",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "libavcodec-extra",
+            "install-packages": [
+                "libavcodec-extra",
+                "gstreamer1.0-plugins-good",
+                "gstreamer1.0-plugins-bad",
+                "gstreamer1.0-plugins-ugly",
+                "gstreamer1.0-fluendo-mp3",
+                "gstreamer1.0-libav"
+            ],
+            "remove-packages": [
+                "libavcodec-extra",
+                "gstreamer1.0-plugins-good",
+                "gstreamer1.0-plugins-bad",
+                "gstreamer1.0-plugins-ugly",
+                "gstreamer1.0-fluendo-mp3",
+                "gstreamer1.0-libav"
+            ],
+            "source": "universe"
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "listed": true,
+    "name": "Handbrake",
+    "summary": "Convert video files or unencrypted DVDs and Blu-Ray discs",
+    "developer-name": "Various Contributors",
+    "developer-url": "https://github.com/HandBrake/HandBrake/blob/master/AUTHORS.markdown",
+    "description": "A tool for converting video from nearly any format to a selection of modern, widely supported codecs. Handbrake can process most common multimedia files and any DVD or BluRay sources that do not contain any kind of copy protection. ",
+    "tags": "Media Conversion",
+    "launch-cmd": "handbrake",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://handbrake.fr",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "handbrake",
+            "install-packages": [
+                "handbrake"
+            ],
+            "remove-packages": [
+                "handbrake"
+            ],
+            "source": "universe"
+        }
+    }
+}
