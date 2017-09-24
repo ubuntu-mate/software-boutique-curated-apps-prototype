@@ -1,0 +1,42 @@
+{
+    "listed": true,
+    "name": "Inkscape",
+    "summary": "SVG Editor",
+    "developer-name": "Inkscape Team",
+    "developer-url": "https://inkscape.org/en/credits/",
+    "description": "Loads and saves a subset of the SVG (Scalable Vector Graphics) format, a standard maintained by the WWW consortium.  Inkscape user interface should be familiar from CorelDraw and similar drawing programs. There are rectangles, ellipses, text items, bitmap images and freehand curves. As an added bonus, both vector and bitmap objects can have alpha transparency and can be arbitrarily transformed.  Inkscape supports multiple opened files and multiple views per file. Graphics can be printed and exported to png bitmaps.  Some of the import and export features are provided using the packages dia, libwmf-bin, pstoedit, skencil, imagemagick, and perlmagick. ",
+    "tags": "Graphics Editor",
+    "launch-cmd": "inkscape",
+    "proprietary": false,
+    "alternate-to": "Adobe&reg; Illustrator",
+    "urls": {
+        "info": "https://inkscape.org/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "inkscape",
+            "install-packages": [
+                "inkscape"
+            ],
+            "remove-packages": [
+                "inkscape"
+            ],
+            "source": "main"
+        }
+    }
+}
