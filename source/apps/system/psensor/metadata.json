@@ -1,0 +1,43 @@
+{
+    "listed": true,
+    "name": "Psensor",
+    "summary": "Views graphs of components attached to the system.",
+    "developer-name": "Various Contributors",
+    "developer-url": "http://git.wpitchoune.net/gitweb/?p=psensor.git;a=blob_plain;f=AUTHORS;hb=HEAD",
+    "description": "Views and graphs the current temperature of components attached to the system. Including: Motherboard, CPU, GPU and hard disks. ",
+    "tags": "System Information, Monitoring",
+    "launch-cmd": "psensor",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "http://wpitchoune.net/blog/psensor/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "psensor",
+            "install-packages": [
+                "psensor"
+            ],
+            "remove-packages": [
+                "psensor",
+                "psensor-common"
+            ],
+            "source": "universe"
+        }
+    }
+}

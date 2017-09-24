@@ -1,0 +1,39 @@
+{
+    "listed": true,
+    "name": "KDE Connect Indicator",
+    "summary": "Integrate your smart phone to your desktop.",
+    "developer-name": "Various Contributors",
+    "developer-url": "https://github.com/Bajoja/indicator-kdeconnect/graphs/contributors",
+    "description": "Connects smartphones to your desktop to integrate with your smartphones and similar devices. At the moment it only supports Android based devices. KDEConnect needs to be installed on your smartphone for this to work.",
+    "tags": "Connectivity, Smartphone, Integrations",
+    "launch-cmd": null,
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://github.com/Bajoja/indicator-kdeconnect",
+        "android-app": "https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp",
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "indicator-kdeconnect",
+            "install-packages": [
+                "indicator-kdeconnect"
+            ],
+            "remove-packages": [
+                "indicator-kdeconnect"
+            ],
+            "source": "ppa:webupd8team/indicator-kdeconnect"
+        }
+    }
+}

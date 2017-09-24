@@ -1,0 +1,42 @@
+{
+    "listed": true,
+    "name": "BleachBit",
+    "summary": "Clears unnecessary files to save disk space and ensure privacy.",
+    "developer-name": "Andrew Ziem & Contributors",
+    "developer-url": "https://www.bleachbit.org/contributors",
+    "description": "Deletes unnecessary files to free valuable disk space, maintain privacy, and remove junk. It removes cache, Internet history, temporary files, cookies, and broken shortcuts. Beyond simply erasing junk files, BleachBit wipes free disk space (to hide previously deleted files for privacy and to improve compression of images), vacuums Firefox databases (to improve performance without deleting data), and securely shreds arbitrary files. ",
+    "tags": "Maintenance, Cleaning",
+    "launch-cmd": "bleachbit",
+    "proprietary": false,
+    "alternate-to": "Piriform CCleaner",
+    "urls": {
+        "info": "http://bleachbit.sourceforge.net",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "universe",
+    "installation": {
+        "all": {
+            "main-package": "bleachbit",
+            "install-packages": [
+                "bleachbit"
+            ],
+            "remove-packages": [
+                "bleachbit"
+            ],
+            "source": "main"
+        }
+    }
+}

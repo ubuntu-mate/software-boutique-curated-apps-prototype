@@ -1,0 +1,40 @@
+{
+    "listed": true,
+    "name": "Aptik",
+    "summary": "Simplifies re-installation of software packages after installations.",
+    "developer-name": "Tony George",
+    "developer-url": "https://launchpad.net/~teejee2008",
+    "description": "A utility to simplify re-installation of software packages after upgrading/re-installing Ubuntu-based distributions. Provides options to backup and re-install extra applications installed by user; backup and re-add third-party PPAs; backup and restore downloaded packages in APT cache; fixing ownership of files in user's home directory. ",
+    "tags": "Maintenance, Apt, Installation",
+    "launch-cmd": "pkexec aptik-gtk",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "http://www.teejeetech.in/search/label/aptik",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "aptik",
+            "install-packages": [
+                "aptik"
+            ],
+            "remove-packages": [
+                "aptik"
+            ],
+            "source": "ppa:teejee2008/ppa"
+        }
+    }
+}

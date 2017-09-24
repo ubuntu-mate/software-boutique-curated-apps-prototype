@@ -1,0 +1,42 @@
+{
+    "listed": true,
+    "name": "System Profiler and Benchmark",
+    "summary": "View system information about your hardware and operating system.",
+    "developer-name": "Leandro Pereira and Contributors",
+    "developer-url": "https://github.com/lpereira/hardinfo/blob/master/AUTHORS.md",
+    "description": "<b>Known as HardInfo</b>. A small application that displays information about your hardware and operating system. Currently it knows about PCI, ISA PnP, USB, IDE, SCSI, Serial and parallel port devices. ",
+    "tags": "System Information, Monitoring",
+    "launch-cmd": "hardinfo",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "http://hardinfo.org/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "hardinfo",
+            "install-packages": [
+                "hardinfo"
+            ],
+            "remove-packages": [
+                "hardinfo"
+            ],
+            "source": "universe"
+        }
+    }
+}

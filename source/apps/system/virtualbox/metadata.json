@@ -1,0 +1,41 @@
+{
+    "listed": true,
+    "name": "Oracle VirtualBox",
+    "summary": "Virtualize another computer within your computer.",
+    "developer-name": "Oracle Corporation",
+    "developer-url": "https://www.virtualbox.org/wiki/Contributor_information",
+    "description": "A powerful PC virtualization solution allowing you to run a wide range of PC operating systems on your Linux system. This includes Windows, Linux, FreeBSD, DOS, OpenBSD and others. VirtualBox comes with a broad feature set and excellent performance, making it the premier virtualization software solution on the market. ",
+    "tags": "Virtualization",
+    "launch-cmd": "virtualbox",
+    "proprietary": false,
+    "alternate-to": "VMware Workstation",
+    "urls": {
+        "info": "https://www.virtualbox.org/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "virtualbox-5.1",
+            "install-packages": [
+                "virtualbox-5.1"
+            ],
+            "remove-packages": [
+                "virtualbox-5.1"
+            ],
+            "source": "manual",
+            "list-file": "virtualbox.list",
+            "list-key-url": "https://www.virtualbox.org/download/oracle_vbox_2016.asc"
+        }
+    }
+}
