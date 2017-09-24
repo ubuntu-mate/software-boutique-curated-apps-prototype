@@ -1,0 +1,40 @@
+{
+    "listed": true,
+    "name": "RedNoteBook",
+    "summary": "Graphical diary and journal application",
+    "developer-name": "Jendrik Seipp",
+    "developer-url": "http://jendrikseipp.de/",
+    "description": "A graphical diary and journal to keep track of notes and thoughts throughout the day. It includes a calendar navigation, customisable templates for each day, and a keyword search and cloud. ",
+    "tags": "Productivity Tracking, Notes",
+    "launch-cmd": "rednotebook",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "http://rednotebook.sourceforge.net/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "rednotebook",
+            "install-packages": [
+                "rednotebook"
+            ],
+            "remove-packages": [
+                "rednotebook"
+            ],
+            "source": "universe"
+        }
+    }
+}

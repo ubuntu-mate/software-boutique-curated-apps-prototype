@@ -1,0 +1,46 @@
+{
+    "listed": true,
+    "name": "gramps",
+    "summary": "Genealogy program created, developed and governed by genealogists",
+    "developer-name": "Various Contributors",
+    "developer-url": "https://github.com/gramps-project/gramps/blob/master/AUTHORS",
+    "description": "Gramps is extremely flexible and strives to produce a genealogy program that is both intuitive for hobbyists and feature-complete for professional genealogists. Gramps has the ability to import GEDCOM files exported from many proprietary genealogy programs and can produce a large number of reports in many popular formats. ",
+    "tags": "Specialized",
+    "launch-cmd": "gramps",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://gramps-project.org/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "gramps",
+            "install-packages": [
+                "gramps",
+                "gir1.2-gtkspell3-3.0",
+                "gir1.2-webkit-3.0",
+                "python3-pil",
+                "rcs"
+            ],
+            "remove-packages": [
+                "gramps"
+            ],
+            "source": "universe"
+        }
+    }
+}

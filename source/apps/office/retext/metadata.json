@@ -1,0 +1,42 @@
+{
+    "listed": true,
+    "name": "ReText",
+    "summary": "Simple editor for Markdown and reStructuredText markup languages.",
+    "developer-name": "Various Contributors",
+    "developer-url": "https://github.com/retext-project/retext/graphs/contributors",
+    "description": "A simple editor for Markdown and reStructuredText markup languages. ReText supports tabs, live text preview and syntax highlighting. Supported export formats: HTML, ODT, PDF. It is also possible to write custom export extensions. ",
+    "tags": "Text Editor",
+    "launch-cmd": "retext",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://github.com/retext-project/retext",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64",
+        "armhf",
+        "arm64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "retext",
+            "install-packages": [
+                "retext"
+            ],
+            "remove-packages": [
+                "retext"
+            ],
+            "source": "universe"
+        }
+    }
+}

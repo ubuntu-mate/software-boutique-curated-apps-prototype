@@ -1,0 +1,52 @@
+{
+    "listed": true,
+    "name": "LibreOffice",
+    "summary": "Full-featured office productivity suite",
+    "developer-name": "The Document Foundation",
+    "developer-url": "https://www.documentfoundation.org/",
+    "description": "The full-featured office productivity suite that provides a near drop-in replacement for Microsoft&reg; Office <b>pre-installed</b> as standard in Ubuntu MATE. <br><br>Clicking &#8217;Upgrade&#8217; will ensure LibreOffice always stays up-to-date with the latest stable release. ",
+    "tags": "Office Applications",
+    "launch-cmd": "libreoffice",
+    "proprietary": false,
+    "alternate-to": null,
+    "urls": {
+        "info": "https://www.libreoffice.org/",
+        "android-app": null,
+        "ios-app": null
+    },
+    "arch": [
+        "i386",
+        "amd64"
+    ],
+    "releases": [
+        "xenial",
+        "yakkety",
+        "zesty",
+        "artful"
+    ],
+    "method": "apt",
+    "installation": {
+        "all": {
+            "main-package": "libreoffice-core",
+            "install-packages": [
+                "libreoffice-core",
+                "libreoffice-gtk2",
+                "libreoffice-calc",
+                "libreoffice-draw",
+                "libreoffice-gnome",
+                "libreoffice-impress",
+                "libreoffice-writer"
+            ],
+            "remove-packages": [
+                "libreoffice-core",
+                "libreoffice-gtk2",
+                "libreoffice-calc",
+                "libreoffice-draw",
+                "libreoffice-gnome",
+                "libreoffice-impress",
+                "libreoffice-writer"
+            ],
+            "source": "main"
+        }
+    }
+}
