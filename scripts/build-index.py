@@ -13,6 +13,7 @@ import json
 import shutil
 import sys
 import time
+import subprocess
 
 colours_supported = sys.stdout.isatty()
 def print_msg(color, string):
@@ -35,12 +36,6 @@ source_folder = os.path.join(repo_root, "source/apps/")
 compiled_folder = os.path.join(repo_root, "compiled/")
 localised_folder = os.path.join(repo_root, "source/locales/")
 
-# Known environments
-known_codenames = ["all", "xenial", "yakkety", "zesty"]
-known_arch = ["i386", "amd64", "armhf", "arm64", "powerpc", "ppc64el"]
-known_methods = ["dummy", "apt", "snap"]
-known_sources = ["main", "universe", "restricted", "multiverse", "partner", "manual"] # and ppa:*
-
 # Determine locales that have been translated.
 locale_dir = glob.glob(localised_folder + "/*/*.po")
 raw_locales = []
@@ -49,14 +44,28 @@ for locale in locale_dir:
     raw_locales.append(locale_id)
 
 locales = []
-print_msg(4, "Locales used:")
+print_msg(7, "Locales used:")
 for locale in raw_locales:
   if locale not in locales:
     locales.append(locale)
     print_msg(4, "- " + locale)
 
+# Perform validation prior to build.
+print_msg(4, "\nValidating Index...")
+validator = subprocess.Popen(os.path.join(repo_root, "tests", "auto", "validate-metadata.py"), shell=True, stdout=subprocess.PIPE)
+validator.wait()
+if not validator.returncode == 0:
+    print_msg(1, "\nValidation Failed!")
+    print_msg(1, "Please fix the index before building.")
+    print_msg(1, "===========================================")
+    print(validator.communicate()[0].decode("ascii"))
+    print_msg(1, "===========================================\n")
+    exit(1)
+else:
+    print_msg(2, "Validation OK!")
+
 # Begin!
-print_msg(4, "Compiling index...")
+print_msg(4, "\nCompiling index...")
 categories = os.listdir(source_folder)
 categories.sort()
 new_index = {}
@@ -68,8 +77,7 @@ os.mkdir(compiled_folder)
 for folder in ["icons", "screenshots"]:
     os.mkdir(compiled_folder + folder)
 
-# Validate and add each application.
-faults = False
+# Add each application.
 for category in categories:
     new_index[category] = {}
     apps = os.listdir(os.path.join(source_folder, category))
@@ -104,130 +112,7 @@ for category in categories:
             print_msg(1, "{0}/{1} = No 'listed' key.".format(category, appid))
             break
 
-        # Check the required fields are present.
-        def check_field(key, key_type, is_required, subkey=None):
-            global faults
-            if is_required:
-                if subkey:
-                    try:
-                        target = index[key][subkey]
-                    except KeyError:
-                        print_msg(1, "{0}/{1} = Missing required subkey '{2}' for key '{3}'".format(category, appid, subkey, key))
-                        faults = True
-                        return
-                else:
-                    try:
-                        target = index[key]
-                    except KeyError:
-                        print_msg(1, "{0}/{1} = Missing required key '{2}'".format(category, appid, key))
-                        faults = True
-                        return
-            else:
-                try:
-                    if subkey:
-                        target = index[key][subkey]
-                    else:
-                        target = index[key]
-                except KeyError:
-                    print_msg(3, "{0}/{1} = Optional key missing, consider adding it with null instead: '{2}'".format(category, appid, key))
-                    faults = True
-                    return
-
-            if target and not type(target) == key_type:
-                if subkey:
-                    print_msg(1, "{0}/{1} = Wrong key type '{2}' for subkey '{3}' (should be {4})".format(category, appid, key, subkey, str(key_type).split("'")[1]))
-                    faults = True
-                    return
-                else:
-                    print_msg(1, "{0}/{1} = Wrong key type '{2}' (should be {3})".format(category, appid, key, str(key_type).split("'")[1]))
-                    faults = True
-                    return
-
-            # If a required field, check there is actually data there.
-            if key_type in [str, list] and is_required:
-                try:
-                    if len(target) == 0:
-                        print_msg(3, "{0}/{1} = Blank data: '{2}'.".format(category, appid, key))
-                except Exception:
-                    print_msg(1, "{0}/{1} = Invalid data: '{2}'".format(category, appid, key, target))
-
-        check_field("listed", bool, True)
-        check_field("name", str, True)
-        check_field("summary", str, True)
-        check_field("description", str, True)
-        check_field("developer-name", str, True)
-        check_field("developer-url", str, True)
-        check_field("tags", str, True)
-        check_field("launch-cmd", str, False)
-        check_field("alternate-to", str, False)
-        check_field("proprietary", bool, True)
-        check_field("urls", dict, True)
-        check_field("urls", str, True, "info")
-        check_field("arch", list, True)
-        check_field("releases", list, True)
-        check_field("method", str, True)
-        check_field("installation", dict, True)
-        check_field("installation", dict, True, "all")
-
-        if index.get("method") == "apt":
-            codenames = index["installation"].keys()
-            for raw_codename in codenames:
-                # Checks for typos in every "declared" codename.
-                for name in raw_codename.split(','):
-                    if name not in known_codenames:
-                        print_msg(3, "{0}/{1} = Unrecognised codename '{2}'".format(category, appid, name))
-
-                # Required data
-                apt_data = index["installation"][raw_codename]
-                try:
-                    apt_data["main-package"]
-                    apt_data["install-packages"]
-                    apt_data["remove-packages"]
-                except KeyError:
-                    print_msg(1, "{0}/{1} = At least one is missing: main-package, install-packages, remove-packages".format(category, appid))
-                    continue
-
-                if not type(apt_data["main-package"]) == str or not type(apt_data["install-packages"]) == list or not type(apt_data["remove-packages"]) == list:
-                    print_msg(1, "{0}/{1} = At least one has the wrong data type: main-package, install-packages, remove-packages".format(category, appid))
-                    continue
-
-                # Check the Apt source is valid.
-                source = apt_data["source"]
-                if not source.startswith("ppa:"):
-                    if source not in known_sources:
-                        print_msg(1, "{0}/{1} = Unrecognised source '{2}'. Installation would fail.".format(category, appid, source))
-
-                # If it's a manual source file, these are required.
-                if apt_data["source"] == "manual":
-                    try:
-                        list_filename = apt_data["list-file"]
-                    except KeyError:
-                        print_msg(1, "{0}/{1} = Manual source specified, but no list file was specified.".format(category, appid))
-                        continue
-
-                    list_pathname = os.path.join(source_folder, category, appid, list_filename)
-                    if os.path.exists(list_pathname):
-                        shutil.copyfile(list_pathname, os.path.join(compiled_folder, "source-lists", list_filename))
-                    else:
-                        print_msg(1, "{0}/{1} = Manual source specified, but list file is missing.".format(category, appid))
-                        continue
-
-                    if not apt_data.get("list-key-url") and not apt_data.get("list-key-server"):
-                        print_msg(1, "{0}/{1} = Manual source specified, but no key server or URL was set.".format(category, appid))
-                        continue
-
-        if index.get("method") not in known_methods:
-            print_msg(1, "{0}/{1} = Unrecognised method '{2}'".format(category, appid, index.get("method")))
-            break
-
-        for arch in index.get("arch"):
-            if arch not in known_arch:
-                print_msg(3, "{0}/{1} = Unrecognised architecture '{2}'".format(category, appid, arch))
-
-        # Add to compiled index if successful
-        if faults:
-            continue
-
+        # Add to compiled index
         new_index[category][appid] = index
         source_dir = os.path.join(source_folder, category, appid)
         shutil.copyfile(os.path.join(source_dir, "icon.png"), os.path.join(compiled_folder, "icons", appid + ".png"))
@@ -236,12 +121,6 @@ for category in categories:
             if filename.startswith("screenshot-"):
                 screenshot_no = filename.split("-")[1][:1]
                 shutil.copyfile(os.path.join(source_dir, filename), os.path.join(compiled_folder, "screenshots", appid + "-" + str(screenshot_no) + ".jpg"))
-
-# If validation fails, abort compiling.
-if faults:
-    print_msg(1, "\nIndex validation failed!")
-    print_msg(0, "Please fix or unlist the faulty software.\n")
-    exit(1)
 
 # Compile statistics
 categories_no = 0
@@ -264,7 +143,7 @@ with open(new_index_path, 'w') as f:
     json.dump(new_index, f, sort_keys=True)
 
 # Now assemble translatable versions of the index.
-print_msg(4, "Compiling localised indexes...")
+print_msg(4, "\nCompiling localised indexes...")
 
 def copy_original_index():
     with open(new_index_path) as f:
@@ -300,4 +179,4 @@ for locale in locales:
     with open(os.path.join(compiled_folder, "applications-" + locale + ".json"), 'w') as f:
         json.dump(localised_index, f, sort_keys=True)
 
-print_msg(2, "Index ready to go.")
+print_msg(2, "Index ready to go.\n")
