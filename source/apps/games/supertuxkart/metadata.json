@@ -4,7 +4,7 @@
     "summary": "3D kart racing game featuring Tux and other mascots",
     "developer-name": "SuperTuxKart Team",
     "developer-url": "https://supertuxkart.net/Team",
-    "description": "A free 3D kart racing game, with a focus on having fun over realism. You can play with up to 4 friends on one PC, racing against each other or just trying to beat the computer; single-player mode is also available. See the great lighthouse or drive through the sand and visit the pyramids. Race underground or in space, watching the stars pass by. Or rest under the palm trees on the beach, watching the other karts overtake you. But don&#8217;t eat the bananas! Watch for bowling balls, plungers, bubble gum and cakes thrown by your opponents. You can do a single race against other karts, compete in one of several Grand Prix, try to beat the high score in time trials on your own, play battle mode against your friends, and more! ",
+    "description": "A free 3D kart racing game, with a focus on having fun over realism. You can play with up to 4 friends on one PC, racing against each other or just trying to beat the computer; single-player mode is also available. See the great lighthouse or drive through the sand and visit the pyramids. Race underground or in space, watching the stars pass by. Or rest under the palm trees on the beach, watching the other karts overtake you. But don't eat the bananas! Watch for bowling balls, plungers, bubble gum and cakes thrown by your opponents. You can do a single race against other karts, compete in one of several Grand Prix, try to beat the high score in time trials on your own, play battle mode against your friends, and more! ",
     "tags": "Racing",
     "launch-cmd": "supertuxkart",
     "proprietary": false,

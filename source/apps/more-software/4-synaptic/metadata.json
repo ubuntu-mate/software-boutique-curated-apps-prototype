@@ -4,7 +4,7 @@
     "summary": "Advanced graphical tool for managing Apt on the system.",
     "developer-name": "Various Contributors",
     "developer-url": "http://www.nongnu.org/synaptic/contribute.html",
-    "description": "A graphical package management program for <code>apt</code>. It provides the same features as the <code>apt-get</code> command line utility, allowing you to install, upgrade, remove or purge individual packages; modify repository settings; view change logs and even lock a package to a specific version. <br><br><span class=&#8217;fa fa-warning&#8217;></span> <b>This tool is primarily for advanced users, use with caution.</b> ",
+    "description": "A graphical package management program for <code>apt</code>. It provides the same features as the <code>apt-get</code> command line utility, allowing you to install, upgrade, remove or purge individual packages; modify repository settings; view change logs and even lock a package to a specific version. <br><br><span class='fa fa-warning'></span> <b>This tool is primarily for advanced users, use with caution.</b> ",
     "tags": "Package Manager, Apt, Advanced",
     "launch-cmd": "pkexec synaptic",
     "proprietary": false,

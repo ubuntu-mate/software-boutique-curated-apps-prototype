@@ -4,7 +4,7 @@
     "summary": "Sync your Google Drive files to your computer",
     "developer-name": "Insync",
     "developer-url": "https://www.insynchq.com/about",
-    "description": "An application that syncs your Google Drive files to your computer. It has more advanced features than Google&#8217;s official client such as multiple account support, Google Docs conversion, symlink support, and built in sharing. <u>Insync is a commercial application</u>, if you wish to continue using it after the evaluation period <a onclick=\"cmd('link?https://www.insynchq.com/pricing')\"> you will have to pay for it.</a> <ul><li><b>Equivalent to: </b><i>Google Drive Client</i></li></ul> ",
+    "description": "An application that syncs your Google Drive files to your computer. It has more advanced features than Google's official client such as multiple account support, Google Docs conversion, symlink support, and built in sharing. <u>Insync is a commercial application</u>, if you wish to continue using it after the evaluation period <a onclick=\"cmd('link?https://www.insynchq.com/pricing')\"> you will have to pay for it.</a> <ul><li><b>Equivalent to: </b><i>Google Drive Client</i></li></ul> ",
     "tags": "Cloud and Sync",
     "launch-cmd": "insync",
     "proprietary": true,

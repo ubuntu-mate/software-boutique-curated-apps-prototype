@@ -4,7 +4,7 @@
     "summary": "Native Pandora radio client",
     "developer-name": "Various Contributors",
     "developer-url": "https://github.com/pithos/pithos/graphs/contributors",
-    "description": "A native <a onclick=\"cmd('link?http://www.pandora.com')\">Pandora Radio</a> client for Linux. It&#8217;s more lightweight than the Pandora.com web client, and integrates with desktop features such as media keys, notifications, and the sound menu. <u>Currently Pandora Radio is only available in U.S., Australia and New Zealand.</u> ",
+    "description": "A native <a onclick=\"cmd('link?http://www.pandora.com')\">Pandora Radio</a> client for Linux. It's more lightweight than the Pandora.com web client, and integrates with desktop features such as media keys, notifications, and the sound menu. <u>Currently Pandora Radio is only available in U.S., Australia and New Zealand.</u> ",
     "tags": "Media Playback",
     "launch-cmd": "pithos",
     "proprietary": false,
