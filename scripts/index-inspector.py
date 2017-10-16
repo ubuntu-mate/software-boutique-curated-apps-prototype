@@ -72,7 +72,18 @@ for category in categories:
 # Begin output of stats
 print_msg(7, "\nSoftware Boutique Index Inspector")
 print_msg(7, "======================================================")
-print_msg(3, "There are {0} applications indexed.\n".format(len(indexes)))
+print_msg(3, "There are {0} applications indexed.".format(len(indexes)))
+
+count_open_source = 0
+count_proprietary = 0
+for index in indexes:
+    if index["proprietary"] == True:
+        count_proprietary += 1
+    else:
+        count_open_source += 1
+print("  - Open Source: {0}".format(str(count_open_source)))
+print("  - Proprietary: {0}".format(str(count_proprietary)))
+print("\n")
 
 # How many are marked as unlisted?
 unlisted = []
