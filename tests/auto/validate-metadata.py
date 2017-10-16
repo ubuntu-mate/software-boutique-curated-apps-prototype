@@ -106,6 +106,10 @@ for category in categories:
                         if not os.path.exists(os.path.join(path, "source.list")):
                             print("{0} : Missing a source.list file!".format(path))
 
+                        # The "list-file" key should specify a .list extension
+                        if not i["list-file"].endswith(".list"):
+                            print("{0} : Missing '.list' extension for 'list-file' key.".format(path))
+
                 elif method == "snap":
                     i["name"]
 
