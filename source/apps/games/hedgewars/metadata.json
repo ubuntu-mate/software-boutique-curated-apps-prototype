@@ -21,7 +21,6 @@
     ],
     "releases": [
         "xenial",
-        "yakkety",
         "zesty",
         "artful"
     ],

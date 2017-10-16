@@ -21,8 +21,7 @@
         "arm64"
     ],
     "releases": [
-        "xenial",
-        "yakkety"
+        "xenial"
     ],
     "method": "apt",
     "installation": {

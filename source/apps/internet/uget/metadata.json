@@ -22,7 +22,6 @@
     ],
     "releases": [
         "xenial",
-        "yakkety",
         "zesty"
     ],
     "method": "apt",

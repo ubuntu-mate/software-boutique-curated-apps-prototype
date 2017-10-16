@@ -21,7 +21,6 @@
         "arm64"
     ],
     "releases": [
-        "yakkety",
         "zesty",
         "artful"
     ],

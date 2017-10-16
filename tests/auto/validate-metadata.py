@@ -11,7 +11,7 @@ import json
 failed = False
 
 accepted_arch = ["i386", "amd64", "armhf", "arm64"]
-accepted_releases = ["xenial", "yakkety", "zesty", "artful"]
+accepted_releases = ["xenial", "zesty", "artful"]
 accepted_methods = ["dummy", "apt", "snap"]
 accepted_sources = ["main", "universe", "restricted", "multiverse", "partner", "manual"] # + ppa*
 
