@@ -35,17 +35,7 @@
                 "emby-server"
             ],
             "source": "manual",
-            "list-key-url": "http://download.opensuse.org/repositories/home:emby/xUbuntu_Next/Release.key"
-        },
-        "artful": {
-            "main-package": "emby-server",
-            "install-packages": [
-                "emby-server"
-            ],
-            "remove-packages": [
-                "emby-server"
-            ],
-            "source": "manual",
+            "list-file": "emby-server.list",
             "list-key-url": "http://download.opensuse.org/repositories/home:emby/xUbuntu_Next/Release.key"
         }
     }

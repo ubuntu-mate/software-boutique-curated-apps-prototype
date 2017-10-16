@@ -28,7 +28,7 @@
     ],
     "method": "apt",
     "installation": {
-        "all": {
+        "artful": {
             "main-package": "wireshark-gtk",
             "install-packages": [
                 "wireshark-gtk"
@@ -38,6 +38,17 @@
                 "wireshark-common"
             ],
             "source": "universe"
+        },
+        "all": {
+            "main-package": "wireshark-gtk",
+            "install-packages": [
+                "wireshark-gtk"
+            ],
+            "remove-packages": [
+                "wireshark-gtk",
+                "wireshark-common"
+            ],
+            "source": "ppa:wireshark-dev/stable"
         }
     }
 }

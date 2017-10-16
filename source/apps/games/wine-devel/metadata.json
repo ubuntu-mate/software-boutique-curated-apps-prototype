@@ -34,7 +34,7 @@
                 "winehq-devel"
             ],
             "source": "manual",
-            "list-file": "wine-builds",
+            "list-file": "wine-builds.list",
             "list-key-url": "https://dl.winehq.org/wine-builds/Release.key"
         }
     }

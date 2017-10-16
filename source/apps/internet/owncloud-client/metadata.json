@@ -35,7 +35,9 @@
                 "owncloud-client",
                 "owncloud-client-caja"
             ],
-            "source": "universe"
+            "source": "manual",
+            "list-file": "owncloud-client.list",
+            "list-key-url": "http://download.opensuse.org/repositories/isv:ownCloud:desktop/Ubuntu_OSVERSION/Release.key"
         }
     }
 }

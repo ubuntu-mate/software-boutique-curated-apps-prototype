@@ -3,7 +3,7 @@
     "name": "Orca",
     "summary": "Screen reader for visually impaired users",
     "developer-name": "GNOME Team",
-    "developer-url": "https://www.gnome.org/",
+    "developer-url": "https://www.gnome.org/about/",
     "description": "A scriptable screen reader that defines a set of default behaviors (reactions to application events) and key bindings (reaction to user key presses). These default behaviors and key bindings can be overwritten on a per-application basis. <br><br>Clicking &#8217;Upgrade&#8217; will ensure Orca, and other components in the accessibility stack, always stays up-to-date with the latest stable release. ",
     "tags": "Accesibility, Screen Reader, Visually Impaired",
     "launch-cmd": "orca",

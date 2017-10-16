@@ -35,7 +35,9 @@
             "remove-packages": [
                 "syncthing"
             ],
-            "source": "universe"
+            "source": "manual",
+            "list-file": "syncthing.list",
+            "list-key-url": "https://syncthing.net/release-key.txt"
         }
     }
 }

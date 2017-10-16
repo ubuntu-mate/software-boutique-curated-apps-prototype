@@ -33,7 +33,7 @@
             "remove-packages": [
                 "obs-studio"
             ],
-            "source": "universe"
+            "source": "ppa:obsproject/obs-studio"
         }
     }
 }

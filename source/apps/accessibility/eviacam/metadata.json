@@ -36,6 +36,16 @@
             "remove-packages": [
                 "eviacam"
             ],
+            "source": "universe"
+        },
+        "xenial": {
+            "main-package": "eviacam",
+            "install-packages": [
+                "eviacam"
+            ],
+            "remove-packages": [
+                "eviacam"
+            ],
             "source": "ppa:cesar-crea-si/eviacam"
         }
     }

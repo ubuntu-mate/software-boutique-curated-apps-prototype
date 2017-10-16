@@ -26,7 +26,7 @@
         "zesty",
         "artful"
     ],
-    "method": "universe",
+    "method": "apt",
     "installation": {
         "all": {
             "main-package": "bleachbit",
@@ -36,7 +36,7 @@
             "remove-packages": [
                 "bleachbit"
             ],
-            "source": "main"
+            "source": "universe"
         }
     }
 }

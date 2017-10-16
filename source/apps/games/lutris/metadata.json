@@ -34,7 +34,7 @@
                 "lutris"
             ],
             "source": "main",
-            "list-file": "lutris",
+            "list-file": "lutris.list",
             "list-key-url": "http://download.opensuse.org/repositories/home:/strycore/xUbuntu_OSVERSION/Release.key"
         }
     }

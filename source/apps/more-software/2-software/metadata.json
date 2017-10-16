@@ -3,7 +3,7 @@
     "name": "Software",
     "summary": "A software center as seen in Ubuntu and many other Linux distributions.",
     "developer-name": "GNOME Team",
-    "developer-url": "http://gnome.org",
+    "developer-url": "https://www.gnome.org/about/",
     "description": "Software lets you install and update applications and system extensions. It is the same software centre found on other Linux distributions like mainstream Ubuntu.",
     "tags": "Software Center, Applications, Software",
     "launch-cmd": "gnome-software",

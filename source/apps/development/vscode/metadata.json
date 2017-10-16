@@ -34,7 +34,7 @@
                 "code"
             ],
             "source": "manual",
-            "list-file": "vscode",
+            "list-file": "vscode.list",
             "list-key-url": "https://packages.microsoft.com/keys/microsoft.asc"
         }
     }

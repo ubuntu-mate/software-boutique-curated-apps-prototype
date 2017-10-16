@@ -35,7 +35,7 @@
             "remove-packages": [
                 "uget"
             ],
-            "source": "universe"
+            "source": "ppa:plushuang-tw/uget-stable"
         }
     }
 }

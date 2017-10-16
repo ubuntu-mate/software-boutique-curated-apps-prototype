@@ -34,7 +34,7 @@
                 "retroarch",
                 "retroarch-assets"
             ],
-            "source": "universe"
+            "source": "ppa:libretro/stable"
         }
     }
 }
