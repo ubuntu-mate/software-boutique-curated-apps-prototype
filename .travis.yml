@@ -4,6 +4,7 @@ python:
 script:
 - scripts/build-index.py
 - scripts/post-build.sh
+- tests/run-auto-tests.sh
 deploy:
   skip_cleanup: true
   provider: script
