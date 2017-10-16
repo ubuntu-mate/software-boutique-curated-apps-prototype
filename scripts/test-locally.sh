@@ -27,5 +27,5 @@ if [ "$1" == "--build-only" ]; then
 else
     cd ../dist/
     touch /tmp/boutique-dev.lock
-    python -m SimpleHTTPServer 8000
+    python3 -m http.server 8000
 fi
