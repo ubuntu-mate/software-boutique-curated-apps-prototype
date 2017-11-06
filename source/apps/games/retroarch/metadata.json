@@ -20,7 +20,8 @@
     ],
     "releases": [
         "xenial",
-        "zesty"
+        "zesty",
+        "artful"
     ],
     "method": "apt",
     "installation": {
