@@ -2,7 +2,7 @@
     "listed": true,
     "name": "Ubuntu Make",
     "summary": "Tool for downloading latest versions of popular development tools.",
-    "developer-name": "Canonical",
+    "developer-name": "Various Contributors",
     "developer-url": "https://www.canonical.com/",
     "description": "A command line tool which allows you to download the latest version of popular developer tools and provides functionality to setup, maintain and personalize your developer environment easily. It will handle all dependencies, even those which aren't in Ubuntu itself, and will install the latest versions of the recommended tools. ",
     "tags": "Toolkits",
@@ -10,7 +10,7 @@
     "proprietary": false,
     "alternate-to": null,
     "urls": {
-        "info": "https://wiki.ubuntu.com/ubuntu-make",
+        "info": "https://github.com/ubuntu/ubuntu-make",
         "android-app": null,
         "ios-app": null
     },
@@ -35,7 +35,7 @@
             "remove-packages": [
                 "ubuntu-make"
             ],
-            "source": "main"
+            "source": "ppa:lyzardking/ubuntu-make"
         }
     }
 }
