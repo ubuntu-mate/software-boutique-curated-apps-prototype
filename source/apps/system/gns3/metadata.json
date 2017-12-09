@@ -8,7 +8,7 @@
     "tags": "Simulation, Networking",
     "launch-cmd": "gns3",
     "proprietary": false,
-    "alternate-to": "Cisco: PachetTracer",
+    "alternate-to": "Cisco: PacketTracer",
     "urls": {
         "info": "https://gns3.com",
         "android-app": null,
