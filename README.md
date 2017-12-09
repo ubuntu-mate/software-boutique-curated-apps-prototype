@@ -6,7 +6,7 @@ This repository stores the index used by the Software Boutique application.
 
 ### Sources
 
-Contains the curvated applications to be used by Software Boutique, stored in `sources/apps/`.
+Contains the curated applications to be used by Software Boutique, stored in `sources/apps/`.
 
 Every application requires:
 
@@ -30,7 +30,7 @@ Transifex is yet to be set up.
 
 ### Distribution
 
-Software Boutique aims to downloads the curvated picks from the central https://ubuntu-mate.software
+Software Boutique aims to downloads the curated picks from the central https://ubuntu-mate.software
 server as quickly and securely as possible.
 
 The web folder includes:
