@@ -1,12 +1,9 @@
-# Ubuntu MATE Software
+# Ubuntu MATE's Curated Applications
 
-This repository stores the index used by the Software Boutique application.
+This repository stores the index used by Software Boutique. Each application is
+individually stored in `apps/` in their relevant category.
 
-[![Build Status](https://travis-ci.org/ubuntu-mate/ubuntu-mate.software.svg?branch=master)](https://travis-ci.org/ubuntu-mate/ubuntu-mate.software)
-
-### Sources
-
-Contains the curated applications to be used by Software Boutique, stored in `sources/apps/`.
+## Structure
 
 Every application requires:
 
@@ -26,20 +23,6 @@ Localised index data for each application can be found in `sources/locales/`.
 * When building the index, the **PO** will be used if available.
 
 Transifex is yet to be set up.
-
-
-### Distribution
-
-Software Boutique aims to downloads the curated picks from the central https://ubuntu-mate.software
-server as quickly and securely as possible.
-
-The web folder includes:
-
-* `applications-LOCALE.json.gz` contains the compiled metadata, compressed.
-* `application-data.tar.gz` contains the icons and screenshots, compressed.
-* `latest_revision` contains a number indicating the latest revision.
-* `SHA256SUMS` to ensure data integrity.
-    * In future, there will be a GPG key for signing and validating its signed by us.
 
 
 ### Dependencies

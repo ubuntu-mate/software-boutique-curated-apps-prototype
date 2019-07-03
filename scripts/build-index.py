@@ -2,8 +2,23 @@
 #
 # Validates and compiles the application index for use with Software Boutique.
 #
-# This script puts together both the index and assets that will be used.
-#   => compiled/
+# This script assembles the index and assets that will be used.
+# Output dir: dist/
+#
+# Copyright 2018-2019 Luke Horwell <code@horwell.me>
+#
+# Software Boutique is free software: you can redistribute it and/or modify
+# it under the temms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Software Boutique is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Software Boutique. If not, see <http://www.gnu.org/licenses/>.
 #
 
 import os
@@ -32,9 +47,9 @@ def print_msg(color, string):
 
 # Paths and Variables
 repo_root = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe()) + "/../"))
-source_folder = os.path.join(repo_root, "source/apps/")
-compiled_folder = os.path.join(repo_root, "compiled/")
-localised_folder = os.path.join(repo_root, "source/locales/")
+source_folder = os.path.join(repo_root, "apps/")
+compiled_folder = os.path.join(repo_root, "dist/")
+localised_folder = os.path.join(repo_root, "locales/")
 
 # Determine locales that have been translated.
 locale_dir = glob.glob(localised_folder + "/*/*.po")
@@ -179,4 +194,4 @@ for locale in locales:
     with open(os.path.join(compiled_folder, "applications-" + locale + ".json"), 'w') as f:
         json.dump(localised_index, f, sort_keys=True)
 
-print_msg(2, "Index ready to go.\n")
+print_msg(2, "Index compiled.\n")

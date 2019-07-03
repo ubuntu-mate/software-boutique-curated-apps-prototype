@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# Copyright 2016-2017 Luke Horwell <lukehorwell37+code@gmail.com>
+# Copyright 2016-2017 Luke Horwell <code@horwell.me>
 #
 # Software Boutique is free software: you can redistribute it and/or modify
 # it under the temms of the GNU General Public License as published by

@@ -30,7 +30,7 @@ def _check_if_string_empty(path, index, key):
         print("{0} : Expected data for key '{1}', but was empty.".format(path, key))
         failed = True
 
-os.chdir(os.path.join(os.path.dirname(__file__), "..", "..", "source", "apps"))
+os.chdir(os.path.join(os.path.dirname(__file__), "..", "..", "apps"))
 categories = glob.glob("*")
 for category in categories:
     app_category_paths = glob.glob(category + "/*")
