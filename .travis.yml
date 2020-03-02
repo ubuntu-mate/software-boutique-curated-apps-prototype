@@ -1,16 +1,18 @@
 language: python
 python:
-- '3.5'
+- '3.6'
+
 script:
+- scripts/test.sh
 - scripts/build-index.py
-- scripts/post-build.sh
-- tests/run-auto-tests.sh
-deploy:
-  skip_cleanup: true
-  provider: script
-  script: scripts/deploy.sh
-  on:
-    branch: master
-before_deploy:
-- openssl aes-256-cbc -K $encrypted_aa421e07034a_key -iv $encrypted_aa421e07034a_iv -in ./scripts/.deploy_key.enc -out ~/.ssh/id_rsa -d
-- chmod 400 ~/.ssh/id_rsa
+
+#deploy:
+  #skip_cleanup: true
+  #provider: script
+  #script: scripts/deploy.sh
+  #on:
+    #branch: master
+
+#before_deploy:
+#- openssl aes-256-cbc -K $encrypted_aa421e07034a_key -iv $encrypted_aa421e07034a_iv -in ./scripts/.deploy_key.enc -out ~/.ssh/id_rsa -d
+#- chmod 400 ~/.ssh/id_rsa
