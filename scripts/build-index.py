@@ -129,6 +129,12 @@ for category in categories:
 
         # Add to compiled index
         new_index[category][appid] = index
+
+        # ... ensuring data is HTML safe.
+        for key in ["name", "summary", "description"]:
+            new_index[category][appid][key] = index[key].replace("'", "&#8217;")
+
+        # Copy image files
         source_dir = os.path.join(source_folder, category, appid)
         shutil.copyfile(os.path.join(source_dir, "icon.png"), os.path.join(compiled_folder, "icons", appid + ".png"))
         file_list = os.listdir(os.path.join(source_dir))
