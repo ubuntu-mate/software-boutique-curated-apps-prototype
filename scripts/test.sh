@@ -5,7 +5,7 @@
 # This can be completed automatically (mainly CI) and follow a series of rules.
 #
 
-cd $(dirname "$0")../tests/
+cd $(dirname "$0")/../tests/
 success=true
 
 for test in $(ls *.py)

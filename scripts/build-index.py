@@ -67,7 +67,7 @@ for locale in raw_locales:
 
 # Perform validation prior to build.
 print_msg(4, "\nValidating Index...")
-validator = subprocess.Popen(os.path.join(repo_root, "tests", "auto", "validate-metadata.py"), shell=True, stdout=subprocess.PIPE)
+validator = subprocess.Popen(os.path.join(repo_root, "tests", "validate-metadata.py"), shell=True, stdout=subprocess.PIPE)
 validator.wait()
 if not validator.returncode == 0:
     print_msg(1, "\nValidation Failed!")
