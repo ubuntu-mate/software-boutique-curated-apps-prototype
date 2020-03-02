@@ -5,7 +5,6 @@
     "developer-name": "Jiří Janoušek and Maintainers",
     "developer-url": "https://tiliado.eu/nuvolaplayer/team/",
     "description": "A runtime for web-based music streaming services providing more native user experience and integration with Linux desktop environments than usual web browsers can offer. It tries to feel and look like a native application as possible. Supports 14 music streaming services, including Amazon Cloud Player, Bandcamp, Google Play Music, Plex Music, Sound Clound, Spotify and TuneIn ",
-    "tags": "Media Playback",
     "launch-cmd": "nuvolaplayer3",
     "proprietary": false,
     "alternate-to": null,

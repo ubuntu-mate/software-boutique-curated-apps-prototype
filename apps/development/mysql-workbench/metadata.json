@@ -5,7 +5,6 @@
     "developer-name": "MySQL Team",
     "developer-url": "https://github.com/mysql/mysql-workbench/blob/master/AUTHORS",
     "description": "A modeling tool that allow to design and generate MySQL databases graphically. It also has administration and query development modules where you can manage MySQL server instances and execute SQL queries. ",
-    "tags": "Database, Management",
     "launch-cmd": "mysql-workbench",
     "proprietary": false,
     "alternate-to": null,

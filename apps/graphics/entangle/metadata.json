@@ -5,7 +5,6 @@
     "developer-name": "Daniel P. Berrange",
     "developer-url": "https://gitlab.com/entangle/entangle/blob/master/AUTHORS.in",
     "description": "Tethered camera control & capture. Entangle provides a graphical interface for <i>tethered shooting</i>, aka taking photographs with a digital camera completely controlled from the computer. With a sufficiently capable digital SLR camera Entangle allows:<ul> <li>Trigger the shutter from the computer</li> <li>Live preview of scene before shooting</li> <li>Automatic download and display of photos as they are shot</li> <li>Control of all camera settings from computer</li></ul> ",
-    "tags": "Photography",
     "launch-cmd": "entangle",
     "proprietary": false,
     "alternate-to": null,

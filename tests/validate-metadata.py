@@ -61,7 +61,6 @@ for category in categories:
             _check_if_string_empty(path, index, "developer-name")
             _check_if_string_empty(path, index, "developer-url")
             _check_if_string_empty(path, index, "description")
-            _check_if_string_empty(path, index, "tags")
             _check_if_string_empty(path, index, "method")
 
             # Check lists contain recognised data

@@ -5,7 +5,6 @@
     "developer-name": "Bill Kendrick and Contributors",
     "developer-url": "http://www.tuxpaint.org/developers/",
     "description": "An award-winning drawing program designed for children aged 3 to 12. It provides an easy to use interface, fun sound effects and Tux as the cartoon mascot to guide the children throughout the program. ",
-    "tags": "Children",
     "launch-cmd": "tuxpaint",
     "proprietary": false,
     "alternate-to": null,

@@ -5,7 +5,6 @@
     "developer-name": "Gott Code",
     "developer-url": "https://gottcode.org/",
     "description": "A fullscreen writing program designed to be distraction free.  You can customize your environment by changing the font, colors, and background image to add ambiance.  FocusWriter features an on-the-fly updating word count, optional auto-save, optional daily goals, and toolbars that hide away to allow you to focus more clearly.  Additionally, when you open the program your current work in progress will automatically load and position you at the end of your document, so that you can immediately jump back in. ",
-    "tags": "Office Applications",
     "launch-cmd": "focuswriter",
     "proprietary": false,
     "alternate-to": null,

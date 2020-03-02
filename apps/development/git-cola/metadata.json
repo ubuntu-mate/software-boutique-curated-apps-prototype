@@ -5,7 +5,6 @@
     "developer-name": "David Aguilar and Contributors",
     "developer-url": "https://github.com/git-cola/git-cola/graphs/contributors",
     "description": "A graphical interface to git, optimized for working with the git index. Git-cola can compare arbitrary commits using standard merge tools. With it you can search commit messages, content, authors, paths, data ranges etc. and it makes it easy to interactively edit the index. ",
-    "tags": "Version Control",
     "launch-cmd": "git-cola",
     "proprietary": false,
     "alternate-to": null,

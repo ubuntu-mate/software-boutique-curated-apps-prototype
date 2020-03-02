@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "https://github.com/mumble-voip/mumble/blob/master/AUTHORS",
     "description": "An open source, low-latency, high quality voice chat software. It features noise suppression, encrypted connections for both voice and instant messaging, automatic gain control and low latency audio with support for multiple audio standards. Mumble includes an in-game overlay compatible with most open-source and commercial 3D applications. Mumble is just a client and uses a non-standard protocol. You will need a dedicated server to talk to other users. <ul><li>Install Murmur, your own private Mumble server, with a <a onclick=jumpOneClickServers(3)>one-click installation.</a></li></ul> ",
-    "tags": "Instant Messaging, VoIP",
     "launch-cmd": "mumble",
     "proprietary": false,
     "alternate-to": null,

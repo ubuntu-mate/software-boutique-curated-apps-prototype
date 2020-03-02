@@ -5,7 +5,6 @@
     "developer-name": "Google",
     "developer-url": "https://www.google.com/about/",
     "description": "A simple application for adding the music files on your computer to  <a onclick=\"cmd('link?http://music.google.com')\">Google Play Music</a>. Use Music Manager to upload your favorite songs from your computer to your Google Play library. You can upload up to 50,000 songs and listen on your mobile device, computer, or Chromecast. ",
-    "tags": "Cloud and Sync",
     "launch-cmd": "google-musicmanager",
     "proprietary": true,
     "alternate-to": "Apple iTunes",

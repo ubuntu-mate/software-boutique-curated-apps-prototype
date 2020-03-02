@@ -5,7 +5,6 @@
     "developer-name": "Ubuntu Repositories",
     "developer-url": "https://packages.ubuntu.com/search?keywords=libavcodec-extra",
     "description": "Includes a library that offers a complete, cross-platform solution to decode, encode, record, convert and stream audio and video. It also includes a MP3 audio decoder that permits the playback of MPEG 1 audio layer III (MP3) streams in Rhythmbox. ",
-    "tags": "Codecs",
     "launch-cmd": null,
     "proprietary": false,
     "alternate-to": null,

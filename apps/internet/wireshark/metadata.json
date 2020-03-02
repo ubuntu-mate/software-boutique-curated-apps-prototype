@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "https://www.wireshark.org/about.html",
     "description": "The world's foremost network protocol analyzer. It lets you see what's happening on your network at a microscopic level. It is the de facto (and often de jure) standard across many industries and educational institutions. ",
-    "tags": "Network Analyzer",
     "launch-cmd": "wireshark-gtk",
     "proprietary": false,
     "alternate-to": null,

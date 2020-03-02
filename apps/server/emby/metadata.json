@@ -5,7 +5,6 @@
     "developer-name": "Emby Team",
     "developer-url": "hhttps://github.com/orgs/MediaBrowser/people",
     "description": "Brings all of your home videos, music, and photos together into one place. Your personal Emby Server automatically converts and streams your media on-the-fly to play on any device. <br><br>When installed run <code>sudo service emby-server start</code> from a terminal to start Emby and then point a browser to <a onclick=\"cmd('link?http://localhost:8096')\">http://localhost:8096</a> to configure Emby. ",
-    "tags": "Server, Multimedia, Streaming",
     "launch-cmd": null,
     "proprietary": false,
     "alternate-to": "Windows&reg; Media Center",

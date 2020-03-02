@@ -5,7 +5,6 @@
     "developer-name": "Mumble Team",
     "developer-url": "https://github.com/orgs/mumble-voip/people",
     "description": "Murmur is the VoIP server component for Mumble. Murmur is installed in a system-wide fashion, but can also be run by individual users. Each murmur process supports multiple virtual servers, each with their own user base and channel list. ",
-    "tags": "Instant Messaging, VoIP, Voice Chat",
     "launch-cmd": null,
     "proprietary": false,
     "alternate-to": null,

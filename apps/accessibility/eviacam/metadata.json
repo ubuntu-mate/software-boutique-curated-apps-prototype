@@ -5,7 +5,6 @@
     "developer-name": "Cesar Mauri Loba (CREA Software)",
     "developer-url": "http://www.crea-si.com/",
     "description": "Enable Viacam (aka eViacam) is a mouse replacement program that moves the pointer as you move your head. It works on a standard computer equipped with a web camera. No additional hardware is required. Based on the award winning Facial Mouse software. ",
-    "tags": "Accessibility, Mouse, Camera, Head Movement",
     "launch-cmd": "eviacam",
     "proprietary": false,
     "alternate-to": null,

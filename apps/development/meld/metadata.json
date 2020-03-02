@@ -5,7 +5,6 @@
     "developer-name": "Meld Team",
     "developer-url": "http://meldmerge.org/development.html",
     "description": "A graphical diff viewer and merge application. It supports 2 and 3-file diffs, recursive directory diffs, diffing of directories under version control (Bazaar, Codeville, CVS, Darcs, Fossil SCM, Git, Mercurial, Monotone, Subversion), as well as the  ability  to manually and automatically merge file differences. ",
-    "tags": "Diff, Comparison",
     "launch-cmd": "meld",
     "proprietary": false,
     "alternate-to": null,

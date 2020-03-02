@@ -5,7 +5,6 @@
     "developer-name": "Gajim Team",
     "developer-url": "https://dev.gajim.org/gajim/gajim/project_members",
     "description": "A Jabber client with a tabbed user interface for normal chats, group chats, and has many features such as, TLS, GPG, SSL, multiple accounts, avatars, file transfers, audio/video call, D-Bus and Metacontacts. ",
-    "tags": "Instant Messaging",
     "launch-cmd": "gajim",
     "proprietary": false,
     "alternate-to": null,

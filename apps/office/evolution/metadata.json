@@ -5,7 +5,6 @@
     "developer-name": "GNOME Team",
     "developer-url": "https://www.gnome.org/about/",
     "description": "A groupware suite which integrates mail, calendar, address book, to-do list and memo tools. Additional features include integration with Exchange servers, newsgroup client, LDAP support and web calendars. ",
-    "tags": "E-mail, Calendar, Organisation",
     "launch-cmd": "evolution",
     "proprietary": false,
     "alternate-to": "Microsoft&reg; Outlook",

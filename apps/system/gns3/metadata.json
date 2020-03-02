@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "https://github.com/dlintott/gns3/blob/master/AUTHORS",
     "description": "What is GNS3? Build, design and test your network in a risk-free virtual environment, and access the largest networking community to help. Whether you are studying for your first networking exam or building out a state-wide telecommunications network, GNS3 offers an easy way to design and build networks of any size without the need for hardware. ",
-    "tags": "Simulation, Networking",
     "launch-cmd": "gns3",
     "proprietary": false,
     "alternate-to": "Cisco: PacketTracer",

@@ -5,7 +5,6 @@
     "developer-name": "Albertas Vyšniauskas and Contributors",
     "developer-url": "https://github.com/thezbyg/gpick/graphs/contributors",
     "description": "An advanced color picker used to pick colors from anywhere on the screen, mix them to  get new colors, generate shades and tints, and export palettes to common file formats or simply copy them to the clipboard. ",
-    "tags": "Color Picker",
     "launch-cmd": "gpick",
     "proprietary": false,
     "alternate-to": null,

@@ -5,7 +5,6 @@
     "developer-name": "Spotify AB",
     "developer-url": "https://www.spotify.com/uk/about-us/contact/",
     "description": "A digital music service that gives you access to millions of songs. ",
-    "tags": "Media Playback",
     "launch-cmd": "spotify",
     "proprietary": true,
     "alternate-to": null,

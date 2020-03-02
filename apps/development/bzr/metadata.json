@@ -5,7 +5,6 @@
     "developer-name": "Canonical",
     "developer-url": "https://www.canonical.com/",
     "description": "Provides an easy-to-use interface to the Bazaar version control system. It is designed to be simple enough for casual users of version control, yet powerful enough for experts to be productive. ",
-    "tags": "Version Control",
     "launch-cmd": "bzr explorer",
     "proprietary": false,
     "alternate-to": null,

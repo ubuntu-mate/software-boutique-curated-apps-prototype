@@ -5,7 +5,6 @@
     "developer-name": "Vivaldi Technologies",
     "developer-url": "https://vivaldi.com/",
     "description": "Vivaldi browser is made with power users in mind by people who love the Web. ",
-    "tags": "Web Browser",
     "launch-cmd": "vivaldi",
     "proprietary": true,
     "alternate-to": null,

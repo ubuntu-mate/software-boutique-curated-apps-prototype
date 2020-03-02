@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "http://wiki.x2go.org/doku.php/about:start",
     "description": "A remote computing environment with support for session resuming, low bandwidth support, session brokerage, client-side mass storage mounting, client-side printing, audio redirection and authentication by smartcard or USB stick. ",
-    "tags": "Server",
     "launch-cmd": null,
     "proprietary": false,
     "alternate-to": "Citrix Workspace Cloud",

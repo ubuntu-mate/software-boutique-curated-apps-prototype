@@ -5,7 +5,6 @@
     "developer-name": "Extreme Tux Racer Team",
     "developer-url": "https://launchpad.net/~etracer",
     "description": "A simple OpenGL racing game featuring Tux, the Linux mascot. The goal of the game is to slide down a snow- and ice-covered mountain as quickly as possible, avoiding the trees and rocks that will slow you down. Collect herrings and other goodies while sliding down the hill, but avoid fish bones. ",
-    "tags": "Racing",
     "launch-cmd": "extremetuxracer",
     "proprietary": false,
     "alternate-to": null,

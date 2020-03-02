@@ -5,7 +5,6 @@
     "developer-name": "Brave Software Inc.",
     "developer-url": "https://brave.com/about/",
     "description": "Browse faster and safer with Brave. The new Brave browser automatically blocks ads and trackers, making it faster and safer than your current browser. Start supporting publishers today with our new Brave Payments system. ",
-    "tags": "Web Browser",
     "launch-cmd": "brave",
     "proprietary": false,
     "alternate-to": null,

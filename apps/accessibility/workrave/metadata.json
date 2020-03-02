@@ -5,7 +5,6 @@
     "developer-name": "Rob Caelers & Contributors",
     "developer-url": "https://github.com/rcaelers/workrave/graphs/contributors",
     "description": "A program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. ",
-    "tags": "Accessibility, Health, Repetitive strain injury, RSI",
     "launch-cmd": "workrave",
     "proprietary": false,
     "alternate-to": null,

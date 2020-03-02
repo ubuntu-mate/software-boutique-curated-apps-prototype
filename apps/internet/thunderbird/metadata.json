@@ -5,7 +5,6 @@
     "developer-name": "Mozilla",
     "developer-url": "https://www.mozilla.org/",
     "description": "Thunderbird is a full-featured email, RSS and newsgroup client that makes emailing safer, faster and easier than ever before. It supports different mail accounts (POP, IMAP, Gmail), has a simple mail account setup wizard, one-click address book, tabbed interface, an integrated learning spam filter, advanced search and indexing capabilities, and offers easy organization of mails with tagging and virtual folders. It also features unrivalled extensibility. ",
-    "tags": "Email",
     "launch-cmd": "thunderbird",
     "proprietary": false,
     "alternate-to": "Microsoft&reg; Outlook",

@@ -5,7 +5,6 @@
     "developer-name": "SpiderOak Inc",
     "developer-url": "https://spideroak.com/",
     "description": "An advanced automated offsite backup system with a 'Zero Knowledge' approach to encryption and privacy. Capabilities include archiving multiple devices with a unified and de-duplicated storage repository, preservation of historical versions and deleted files, configurable multi-platform file synchronization, web file sharing, and a rich command line and graphical interface. ",
-    "tags": "Cloud and Sync, Backups",
     "launch-cmd": "SpiderOakONE",
     "proprietary": true,
     "alternate-to": null,

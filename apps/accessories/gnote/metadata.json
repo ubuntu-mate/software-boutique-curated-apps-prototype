@@ -5,7 +5,6 @@
     "developer-name": "GNOME Team",
     "developer-url": "https://git.gnome.org/browse/gnote/tree/AUTHORS",
     "description": "A desktop note-taking application which is simple and easy to use. It lets you organise your notes with Wiki style interconnects. ",
-    "tags": "Note Taking, Organisation",
     "launch-cmd": "gnote",
     "proprietary": false,
     "alternate-to": "Post-it &reg; notes",

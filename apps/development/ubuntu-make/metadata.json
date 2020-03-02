@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "https://www.canonical.com/",
     "description": "A command line tool which allows you to download the latest version of popular developer tools and provides functionality to setup, maintain and personalize your developer environment easily. It will handle all dependencies, even those which aren't in Ubuntu itself, and will install the latest versions of the recommended tools. ",
-    "tags": "Toolkits",
     "launch-cmd": null,
     "proprietary": false,
     "alternate-to": null,

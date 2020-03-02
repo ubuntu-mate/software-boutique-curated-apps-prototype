@@ -5,7 +5,6 @@
     "developer-name": "LibreOffice Team",
     "developer-url": "https://www.libreoffice.org/community/developers/",
     "description": "The formula editor for the LibreOffice suite. Mathmatical formatting can be invoked in your text documents, spreadsheets, presentations and drawings, to enable you to insert perfectly-formatted mathematical and scientific formulas. Your formulas can include a wide range of elements, from fractions, terms with exponents and indices, integrals, and mathematical functions, to inequalities, systems of equations, and matrices. ",
-    "tags": "Mathematics, Calculator",
     "launch-cmd": "libreoffice --math",
     "proprietary": false,
     "alternate-to": null,

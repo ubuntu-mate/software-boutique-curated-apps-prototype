@@ -5,7 +5,6 @@
     "developer-name": "resin.io",
     "developer-url": "https://resin.io",
     "description": "Etcher is a cross-platform tool for writing images to USB drives and SD cards, aiming to be really simple to prevent accidental damage to hard drives while checking every bit of data was written correctly. ",
-    "tags": "Disk Imager",
     "launch-cmd": "etcher-electron",
     "proprietary": false,
     "alternate-to": null,

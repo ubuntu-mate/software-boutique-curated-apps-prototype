@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "https://git.launchpad.net/deja-dup/tree/AUTHORS",
     "description": "D\u00e9j\u00e0 Dup is a simple backup tool. It hides the complexity of backing up the Right Way (encrypted, off-site, and regular) and uses duplicity as the backend. ",
-    "tags": "Maintenance, Backups",
     "launch-cmd": "deja-dup",
     "proprietary": false,
     "alternate-to": null,

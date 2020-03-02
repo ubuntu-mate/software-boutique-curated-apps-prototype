@@ -5,7 +5,6 @@
     "developer-name": "Jim Evins",
     "developer-url": "https://github.com/jimevins/glabels/graphs/contributors",
     "description": "A lightweight program for creating labels, barcodes, business cards and media covers. It is designed to work with various laser/ink-jet peel-off label and business card sheets that you'll find at most office supply stores. gLabels also supports mail merge from sources such as CSV files and vCards. ",
-    "tags": "Printing",
     "launch-cmd": "glabels-3",
     "proprietary": false,
     "alternate-to": null,

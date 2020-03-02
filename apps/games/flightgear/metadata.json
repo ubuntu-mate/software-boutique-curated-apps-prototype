@@ -5,7 +5,6 @@
     "developer-name": "Flightgear Team",
     "developer-url": "http://www.flightgear.org/about/credits/",
     "description": "The goal of the FlightGear project is to create a sophisticated and open flight simulator framework for use in research, academic environments, pilot training, as an industry engineering tool and last but certainly not least, as a fun, realistic, and challenging desktop flight simulator. ",
-    "tags": "Simulation",
     "launch-cmd": "flightgear",
     "proprietary": false,
     "alternate-to": null,

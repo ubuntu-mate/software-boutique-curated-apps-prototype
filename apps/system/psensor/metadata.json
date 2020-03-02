@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "http://git.wpitchoune.net/gitweb/?p=psensor.git;a=blob_plain;f=AUTHORS;hb=HEAD",
     "description": "Views and graphs the current temperature of components attached to the system. Including: Motherboard, CPU, GPU and hard disks. ",
-    "tags": "System Information, Monitoring",
     "launch-cmd": "psensor",
     "proprietary": false,
     "alternate-to": null,

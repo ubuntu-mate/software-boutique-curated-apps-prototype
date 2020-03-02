@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "https://github.com/GNOME/d-feet/blob/master/AUTHORS",
     "description": "A D-Bus debugger that allow you to, view names on the session and system bus, view exported objects, interfaces, methods and signals, view the full command line of services on the bus and execute methods with parameters on the bus and see their return values. ",
-    "tags": "Debugger",
     "launch-cmd": "d-feet",
     "proprietary": false,
     "alternate-to": null,

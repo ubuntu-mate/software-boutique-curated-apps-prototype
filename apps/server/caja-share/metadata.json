@@ -5,7 +5,6 @@
     "developer-name": "MATE Desktop Team",
     "developer-url": "https://mate-desktop.org",
     "description": "An extension that allows you to quickly share a folder from the Caja file manager. It uses Samba, so your folders can be accessed by any operating system.",
-    "tags": "Server, Extensions",
     "launch-cmd": null,
     "proprietary": false,
     "alternate-to": "Windows&reg; Simple File Sharing",

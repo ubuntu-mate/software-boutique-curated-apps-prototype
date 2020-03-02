@@ -5,7 +5,6 @@
     "developer-name": "The Frozen-Bubble Team",
     "developer-url": "http://www.frozen-bubble.org/downloads/",
     "description": "A clone of the popular <i>Puzzle Bobble</i> game, in which you attempt to shoot bubbles into groups of the same color to cause them to pop. Players compete as penguins and must use the arrow keys to aim a colored bubble at groups of bubbles. The objective is to clear all the bubbles off the screen before a bubble passes below a line at the bottom. It features 100 single-player levels, a two-player mode, music and striking graphics. A level editor is also included to allow players to create and play their own levels. ",
-    "tags": "Puzzle",
     "launch-cmd": "frozen-bubble",
     "proprietary": false,
     "alternate-to": null,

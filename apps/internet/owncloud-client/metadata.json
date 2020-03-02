@@ -5,7 +5,6 @@
     "developer-name": "ownCloud Team",
     "developer-url": "https://github.com/orgs/owncloud/people",
     "description": "A tool to synchronize files from an ownCloud Server with your computer. ",
-    "tags": "Cloud and Sync",
     "launch-cmd": "owncloud",
     "proprietary": false,
     "alternate-to": null,

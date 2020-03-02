@@ -5,7 +5,6 @@
     "developer-name": "Kodi Team",
     "developer-url": "https://kodi.tv/kodi-team",
     "description": "A media player application for your computer, it has been designed to be the perfect companion for your HTPC. Supporting an almost endless range of remote controls, and combined with its beautiful interface and powerful skinning engine, Kodi feels very natural to use from the couch and is the ideal solution for your home theater. Once installed, your computer will become a fully functional multimedia jukebox. ",
-    "tags": "Media Playback",
     "launch-cmd": "kodi",
     "proprietary": false,
     "alternate-to": null,

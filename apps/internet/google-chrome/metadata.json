@@ -5,7 +5,6 @@
     "developer-name": "Google",
     "developer-url": "https://www.google.com/about/",
     "description": "The web browser from Google that combines a minimal design with sophisticated technology to make the web faster, safer, and easier. If you are a <b>Netflix</b> subscriber then Google Chrome fully supports Netflix.",
-    "tags": "Web Browser",
     "launch-cmd": "google-chrome-stable",
     "proprietary": true,
     "alternate-to": null,

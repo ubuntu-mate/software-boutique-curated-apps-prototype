@@ -5,7 +5,6 @@
     "developer-name": "Sinew Software Systems",
     "developer-url": "https://www.sinew.io/",
     "description": "A cross-platform, complete password management solution that securely manages passwords and all other life important credentials like bank accounts, Credit cards, IDs, passport, driving licenses etc. Everything is saved locally on user's device and optionally he can sync through other devices using his accounts of Dropbox, Box, Google Drive, OneDrive, Nextcloud and ownCloud. <ul><li><b>Browser Extensions Available: </b><i>Enpass <a onclick=\"cmd('link?https://enpass.io/enpass-browser-extension/')\">browser extensions for Firefox and Google Chrome</a> are also available.</i></li></ul> ",
-    "tags": "Password Management, Security",
     "launch-cmd": "/opt/Enpass/bin/runenpass.sh",
     "proprietary": true,
     "alternate-to": null,

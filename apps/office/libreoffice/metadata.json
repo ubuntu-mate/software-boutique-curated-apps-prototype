@@ -5,7 +5,6 @@
     "developer-name": "The Document Foundation",
     "developer-url": "https://www.documentfoundation.org/",
     "description": "The full-featured office productivity suite that provides a near drop-in replacement for Microsoft&reg; Office <b>pre-installed</b> as standard in Ubuntu MATE. <br><br>Clicking 'Upgrade' will ensure LibreOffice always stays up-to-date with the latest stable release. ",
-    "tags": "Office Applications",
     "launch-cmd": "libreoffice",
     "proprietary": false,
     "alternate-to": null,

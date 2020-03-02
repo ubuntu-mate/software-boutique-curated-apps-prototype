@@ -5,7 +5,6 @@
     "developer-name": "GuinpinSoft Inc",
     "developer-url": "http://www.makemkv.com/aboutmkv/",
     "description": "MakeMKV is your one-click solution to convert video that you own into free and patents-unencumbered format that can be played everywhere. MakeMKV is a format converter, otherwise called 'transcoder'. It converts the video clips from proprietary (and usually encrypted) disc into a set of MKV files, preserving most information but not changing it in any way. The MKV format can store multiple video/audio tracks with all meta-information and preserve chapters. There are many players that can play MKV files nearly on all platforms, and there are tools to convert MKV files to many formats, including DVD and Blu-ray discs. <u>MakeMKV for Linux is in perpetual beta</u> and does require an activation key, which <a onclick=\"cmd('link?http://www.makemkv.com/forum2/viewtopic.php?f=5&t=1053is')\"> always updated and on the MakeMKV forum</a>. ",
-    "tags": "Media Conversion",
     "launch-cmd": "makemkv",
     "proprietary": true,
     "alternate-to": "Slysoft AnyDVD HD",

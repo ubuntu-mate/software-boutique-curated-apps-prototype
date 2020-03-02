@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "https://github.com/shlomif/PySolFC/blob/master/AUTHORS",
     "description": "There are games that use the 52 card International Pattern deck, games for the 78 card Tarock deck, eight and ten suit Ganjifa games, Hanafuda games, Matrix games, Mahjongg games, and games for an original hexadecimal-based deck. Its features include modern look and feel, multiple cardsets and tableau backgrounds, sound, unlimited undo, player statistics, a hint system, demo games, a solitaire wizard, support for user written plug-ins, an integrated HTML help browser, and lots of documentation. ",
-    "tags": "Card and Board Games",
     "launch-cmd": "pysolfc",
     "proprietary": false,
     "alternate-to": null,

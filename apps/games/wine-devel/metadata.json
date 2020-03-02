@@ -5,7 +5,6 @@
     "developer-name": "Wine Team and Many Contributors",
     "developer-url": "https://source.winehq.org/source/AUTHORS",
     "description": "The latest, official development builds of the Wine Compatibility Layer. These allow you to play a wider range of Windows games and software as soon as new versions of Wine are released. ",
-    "tags": "Compatibility",
     "launch-cmd": null,
     "proprietary": false,
     "alternate-to": null,

@@ -5,7 +5,6 @@
     "developer-name": "Damon Lynch",
     "developer-url": "http://www.damonlynch.net/",
     "description": "Used by both professional and amateur photographers to download photos and videos from multiple cameras, memory cards and Portable Storage Devices simultaneously. It provides many flexible, user-defined options for subfolder creation, photo and video renaming, and backup. ",
-    "tags": "Photography",
     "launch-cmd": "rapid-photo-downloader",
     "proprietary": false,
     "alternate-to": null,

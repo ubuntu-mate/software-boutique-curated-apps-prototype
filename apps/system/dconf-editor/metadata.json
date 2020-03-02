@@ -5,7 +5,6 @@
     "developer-name": "GNOME Team",
     "developer-url": "https://www.gnome.org/about/",
     "description": "Simple configuration graphical editor for DConf, a low-level key/value database designed for storing desktop environment settings. ",
-    "tags": "Maintenance, Configuration",
     "launch-cmd": "dconf-editor",
     "proprietary": false,
     "alternate-to": null,

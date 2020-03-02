@@ -5,7 +5,6 @@
     "developer-name": "Luis MartinGarcia and Fyodor",
     "developer-url": "https://nmap.org/book/nping-man-author.html",
     "description": "A frontend for Nmap, a utility for network discovery and security auditing, that is meant to be useful for advanced users and to make Nmap easy to use by beginners. ",
-    "tags": "Network Analyzer",
     "launch-cmd": "zenmap",
     "proprietary": false,
     "alternate-to": null,

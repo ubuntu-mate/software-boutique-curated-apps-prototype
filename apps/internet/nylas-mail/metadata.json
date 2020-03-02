@@ -5,7 +5,6 @@
     "developer-name": "Nylas Team",
     "developer-url": "https://www.nylas.com/team/",
     "description": "Nylas Mail is a beautifully crafted email app that works across on Linux, macOS and Windows. It features an elegant UI and a host of features including Unified Inbox, Open and Link Tracking, Rich Contacts, Undo Send and Quick Reply templates. It offers a delightful experience in managing your inboxes. ",
-    "tags": "Email",
     "launch-cmd": "nylas-mail",
     "proprietary": false,
     "alternate-to": null,

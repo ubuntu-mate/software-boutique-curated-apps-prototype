@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "http://neverball.org/contributors.php",
     "description": "Guide a rolling ball through dangerous territory in the grand tradition of Marble Madness and Super Monkey Ball. Balance on narrow bridges, navigate mazes, ride moving platforms, and dodge pushers and shovers to get to the goal. Race against the clock to collect coins to earn extra balls. ",
-    "tags": "Puzzle",
     "launch-cmd": "neverball",
     "proprietary": false,
     "alternate-to": null,

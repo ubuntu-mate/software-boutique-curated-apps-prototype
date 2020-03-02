@@ -5,7 +5,6 @@
     "developer-name": "Caffeine Developers",
     "developer-url": "https://launchpad.net/~caffeine-developers",
     "description": "Prevents the desktop from becoming idle when an application is running full-screen. A desktop indicator <code>caffeine-indicator</code> supplies a manual toggle, and the command <code>caffeinate</code> can be used to prevent idleness for the duration of any command.",
-    "tags": "Desktop Management, Applet",
     "launch-cmd": "caffeine-indicator",
     "proprietary": false,
     "alternate-to": null,

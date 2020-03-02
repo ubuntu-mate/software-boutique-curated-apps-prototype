@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "https://github.com/teeworlds/teeworlds/graphs/contributors",
     "description": "A free online multiplayer retro shooter featuring cartoon-themed graphics and physics, and relies heavily on classic shooter weaponry and gameplay. Battle with up to 16 players in a variety of game modes, including Team Deathmatch and Capture The Flag. You can even design your own maps! ",
-    "tags": "Shooter",
     "launch-cmd": "teeworlds",
     "proprietary": false,
     "alternate-to": null,

@@ -5,7 +5,6 @@
     "developer-name": "Audacity Team and Contributors",
     "developer-url": "http://www.audacityteam.org/about/credits/",
     "description": "Audacity is designed for easy recording, playing and editing of digital audio. Audacity features digital effects and spectrum analysis tools. Editing is very fast and provides unlimited undo/redo. ",
-    "tags": "Audio Production",
     "launch-cmd": "audacity",
     "proprietary": false,
     "alternate-to": null,

@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "https://www.blender.org/get-involved/",
     "description": "An integrated 3D suite for modelling, animation, rendering, post-production, interactive creation and playback (games). Blender has its own particular user interface, which is implemented entirely in OpenGL and designed with speed in mind. Python bindings are available for scripting; import/export features for popular file formats like 3D Studio and Wavefront Obj are implemented as scripts by the community. Stills, animations, models for games or other third party engines and interactive content in the form of a standalone binary are common products of Blender use. ",
-    "tags": "3D Modelling",
     "launch-cmd": "blender",
     "proprietary": false,
     "alternate-to": "Adobe&reg; After Effects, Autodesk 3ds Max",

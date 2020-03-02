@@ -5,7 +5,6 @@
     "developer-name": "uGet Team",
     "developer-url": "http://ugetdm.com/about",
     "description": "A simple, lightweight and easy-to-use download manager. It provides the following features: resume downloads, queue downloads, classify downloads in categories, Firefox integration (through Flashgot plugin), clipboard monitoring, import downloads import from HTML files and batch download. ",
-    "tags": "Download Manager",
     "launch-cmd": "uget-gtk",
     "proprietary": false,
     "alternate-to": null,

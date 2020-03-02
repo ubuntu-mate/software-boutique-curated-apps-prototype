@@ -5,7 +5,6 @@
     "developer-name": "The Document Foundation",
     "developer-url": "https://www.documentfoundation.org/",
     "description": "A database management program that provides a frontend to creating and modifying tables, forms and reports as well as connecting to a variety of databases, including MySQL, OOBC and JDBC. ",
-    "tags": "Office Applications",
     "launch-cmd": "libreoffice --base",
     "proprietary": false,
     "alternate-to": "Microsoft&reg; Access",

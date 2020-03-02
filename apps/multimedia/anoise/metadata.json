@@ -5,7 +5,6 @@
     "developer-name": "Marcos Alvarez Costales",
     "developer-url": "https://launchpad.net/~costales",
     "description": "Helps you relax or concentrate by creating an ambient background sound track allowing you to focus on your productivity. It features a minimal player, that can be integrated into the Sound Indicator, where you can choose one of the following sound tracks; Coffee Shop, Fire, Forest, Night, Rain, Sea, Storm and Wind. <ul><li><b>Note: </b><i>Ambient Noise works best with <u>Indicators enabled</u> via <a onclick=\"cmd('run?mate-tweak')\"> MATE Tweak</a>.</i></li></ul> ",
-    "tags": "Media Playback",
     "launch-cmd": "anoise",
     "proprietary": false,
     "alternate-to": null,

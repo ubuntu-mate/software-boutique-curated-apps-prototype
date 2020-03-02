@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "https://chromium.googlesource.com/chromium/src/+/master/AUTHORS",
     "description": "The project aims to build a safer, faster, and more stable way for all Internet users to experience the web. ",
-    "tags": "Web Browser",
     "launch-cmd": "chromium-browser",
     "proprietary": false,
     "alternate-to": null,

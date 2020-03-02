@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "https://github.com/rosedu/Pidgin/blob/master/AUTHORS",
     "description": "Pidgin is an easy to use and free chat client used by millions. Connect to AIM, MSN, Yahoo, and more chat networks all at once. Supports chat networks AIM, Google Talk, ICQ, IRC, MSN, XMPP, and more. ",
-    "tags": "Instant Messaging",
     "launch-cmd": "pidgin",
     "proprietary": false,
     "alternate-to": null,

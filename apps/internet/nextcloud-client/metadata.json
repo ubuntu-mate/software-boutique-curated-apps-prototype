@@ -5,7 +5,6 @@
     "developer-name": "Nextcloud Team",
     "developer-url": "https://nextcloud.com/team/",
     "description": "A tool to synchronize files from a Nextcloud Server with your computer. ",
-    "tags": "Cloud and Sync",
     "launch-cmd": "nextcloud",
     "proprietary": false,
     "alternate-to": null,

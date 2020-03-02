@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "https://wiki.x2go.org/doku.php/about:start",
     "description": "A graphical client for the X2Go Server. You can use it to start new X2Go remote sessions or reconnect to running sessions. <ul><li><a onclick=jumpOneClickServers(2)>One-click server install available</a></li></ul> ",
-    "tags": "Remote Access",
     "launch-cmd": "x2goclient",
     "proprietary": false,
     "alternate-to": null,

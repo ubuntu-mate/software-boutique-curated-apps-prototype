@@ -5,7 +5,6 @@
     "developer-name": "Gnucash Team",
     "developer-url": "https://github.com/orgs/Gnucash/people",
     "description": "Gnucash is personal and small-business financial-accounting software. Designed to be easy to use, yet powerful and flexible, GnuCash allows you to track bank accounts, stocks, income and expenses. As quick and intuitive to use as a checkbook register, it is based on professional accounting principles to ensure balanced books and accurate reports. It can track finances in multiple accounts, keeping running and reconciled balances. There is support for customer, vendor and employee processing. It has double-entry accounting, reports, graphs, transaction matching, scheduled transactions, financial calculations and QIF/OFX/HBCI import. ",
-    "tags": "Finance, Accounting",
     "launch-cmd": "gnucash",
     "proprietary": false,
     "alternate-to": "Intuit&reg; Quicken&reg;",

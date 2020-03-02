@@ -5,7 +5,6 @@
     "developer-name": "Freedesktop",
     "developer-url": "https://cgit.freedesktop.org/pulseaudio/pavucontrol/",
     "description": "A simple volume control tool (mixer) for the PulseAudio sound server. In contrast to classic mixer tools this one allows you to control both the volume of hardware devices and of each playback stream separately. It also allows you to redirect a playback stream to another output device without interrupting playback. ",
-    "tags": "Media Playback",
     "launch-cmd": "pavucontrol",
     "proprietary": false,
     "alternate-to": null,

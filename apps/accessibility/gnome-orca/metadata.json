@@ -5,7 +5,6 @@
     "developer-name": "GNOME Team",
     "developer-url": "https://www.gnome.org/about/",
     "description": "A scriptable screen reader that defines a set of default behaviors (reactions to application events) and key bindings (reaction to user key presses). These default behaviors and key bindings can be overwritten on a per-application basis. <br><br>Clicking 'Upgrade' will ensure Orca, and other components in the accessibility stack, always stays up-to-date with the latest stable release. ",
-    "tags": "Accesibility, Screen Reader, Visually Impaired",
     "launch-cmd": "orca",
     "proprietary": false,
     "alternate-to": null,

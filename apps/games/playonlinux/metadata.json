@@ -5,7 +5,6 @@
     "developer-name": "PlayOnLinux Team",
     "developer-url": "https://github.com/orgs/PlayOnLinux/people",
     "description": "It enables you to easily install and configure Windows games and software on Linux with the use of tried and tested scripts as well as managing your own prefixes.",
-    "tags": "Game Management",
     "launch-cmd": "playonlinux",
     "proprietary": false,
     "alternate-to": null,

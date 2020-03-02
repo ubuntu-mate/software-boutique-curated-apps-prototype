@@ -5,7 +5,6 @@
     "developer-name": "pgAdmin Team",
     "developer-url": "https://www.pgadmin.org/development/team/",
     "description": "pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. The application also includes a syntax highlighting SQL editor, a server-side code editor, an SQL/batch/shell job scheduling agent, support for the Slony-I replication engine and much more. ",
-    "tags": "Database",
     "launch-cmd": "pgadmin3",
     "proprietary": false,
     "alternate-to": null,

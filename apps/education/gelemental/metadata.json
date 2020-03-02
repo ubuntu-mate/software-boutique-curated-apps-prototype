@@ -5,7 +5,6 @@
     "developer-name": "Kevin Daughtridge",
     "developer-url": "https://directory.fsf.org/wiki/GElemental#tab=Details",
     "description": "A periodic table viewer that provides detailed information about chemical elements. It features a table view which allows the elements to be coloured thematically by several properties, a sortable list view and an element properties dialog, displaying a variety of information, including historical, thermodynamic, electrochemical, and crystallographic properties. ",
-    "tags": "Science, Reference",
     "launch-cmd": "gelemental",
     "proprietary": false,
     "alternate-to": null,

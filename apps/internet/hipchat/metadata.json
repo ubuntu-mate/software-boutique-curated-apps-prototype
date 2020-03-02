@@ -5,7 +5,6 @@
     "developer-name": "Atlassian",
     "developer-url": "https://www.atlassian.com/software/hipchat",
     "description": "Group and private chat, file sharing, and integrations. Persistent, searchable team chat that's actually built for business with and loaded with goodies, including video calling, screen sharing and hundreds of integrations. ",
-    "tags": "Collaboration, Instant Messaging",
     "launch-cmd": "hipchat4",
     "proprietary": true,
     "alternate-to": null,

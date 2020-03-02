@@ -5,7 +5,6 @@
     "developer-name": "Kdenlive Authors",
     "developer-url": "https://cgit.kde.org/kdenlive.git/tree/AUTHORS",
     "description": "A non-linear video editing suite, which supports DV, HDV and many more formats. Its main features are: <ul><li>Guides and marker for organizing timelines</li> <li>Copy and paste support for clips, effects and transitions</li> <li>Real time changes</li> <li>FireWire and Video4Linux capture</li> <li>Screen grabbing</li> <li>Exporting to any by FFMPEG supported format</li> ",
-    "tags": "Video Production, Video Editor",
     "launch-cmd": "kdenlive",
     "proprietary": false,
     "alternate-to": "Adobe&reg; Premiere Pro",

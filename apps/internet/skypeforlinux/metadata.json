@@ -5,7 +5,6 @@
     "developer-name": "Microsoft Corporation",
     "developer-url": "https://support.skype.com/en/faq/FA34656/more-information-about-skype-for-linux-beta",
     "description": "Skype is software that enables the world's conversations. Millions of individuals and businesses use Skype to make free video and voice calls, send instant messages and share files with other Skype users. Every day, people also use Skype to make low-cost calls to landlines and mobiles. ",
-    "tags": "Instant Messaging, VoIP",
     "launch-cmd": "skypeforlinux",
     "proprietary": true,
     "alternate-to": null,

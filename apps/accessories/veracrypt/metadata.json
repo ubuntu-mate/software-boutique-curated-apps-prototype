@@ -5,7 +5,6 @@
     "developer-name": "IDRIX",
     "developer-url": "https://www.idrix.fr/",
     "description": "Software for establishing and maintaining an on-the-fly-encrypted volume. The encrypted volume can be a virtual encrypted disk within a file, a partition or complete device such as a USB stick or disk drive. <ul><li><b>Successor to: </b><i>TrueCrypt</i></li></ul> ",
-    "tags": "Encryption, Security, Filesystems",
     "launch-cmd": "veracrypt",
     "proprietary": false,
     "alternate-to": null,

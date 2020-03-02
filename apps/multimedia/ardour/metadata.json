@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "https://github.com/Ardour/ardour/graphs/contributors",
     "description": "A multichannel hard disk recorder (HDR) and digital audio workstation (DAW). It can be used to control, record, edit and run complex audio setups. Ardour supports pro-audio interfaces, This includes the all-digital 26 channel RME Hammerfall, the  Midiman Delta 1010 and many others.  Ardour has support for 24 bit samples, using floating point internally, non-linear editing with unlimited undo, a user-configurable mixer, MTC master/slave capabilities, MIDI hardware, control surface compatibility. Ardour contains a powerful multitrack audio editor/arranger that is completely non-destructive and capable of all standard non-linear editing operations. Ardour's editor supports the community-developed LADSPA plugin standard. ",
-    "tags": "Audio Production",
     "launch-cmd": "ardour4",
     "proprietary": false,
     "alternate-to": null,

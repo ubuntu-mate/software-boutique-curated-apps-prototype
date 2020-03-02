@@ -5,7 +5,6 @@
     "developer-name": "Google",
     "developer-url": "https://google.com/about",
     "description": "Google Earth lets you fly anywhere to see satellite imagery, 3D buildings, 3D trees, terrain, Street View, planets and much more. ",
-    "tags": "Earth",
     "launch-cmd": "google-earth",
     "proprietary": true,
     "alternate-to": null,

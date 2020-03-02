@@ -5,7 +5,6 @@
     "developer-name": "MuseScore Team",
     "developer-url": "https://github.com/orgs/musescore/people",
     "description": "A WYSIWYG music score typesetter that features, WYSIWYG, notes are entered on a 'virtual note sheet', nlimited score length, unlimited number of staves per system, up to four independent voices per staff, easy and fast note entry with mouse, keyboard or midi integrated sequencer and FluidSynth software synthesizer, import and export of MusicXml and standard midifiles (SMF) automatic part extraction and transposition, chord symbols, swing and shuffle playback, and much more... ",
-    "tags": "Music Composition",
     "launch-cmd": "musescore",
     "proprietary": false,
     "alternate-to": null,

@@ -5,7 +5,6 @@
     "developer-name": "Mark B. Allan",
     "developer-url": "http://chromium-bsu.sourceforge.net/about.html",
     "description": "In this game you are the captain of the cargo ship Chromium B.S.U. and are responsible for delivering supplies to the troops on the front line. Your ship has a small fleet of robotic fighters which you control from the relative safety of the Chromium vessel. ",
-    "tags": "Shooter, Arcade",
     "launch-cmd": "chromium-bsu",
     "proprietary": false,
     "alternate-to": null,

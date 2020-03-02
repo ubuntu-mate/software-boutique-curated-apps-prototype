@@ -5,7 +5,6 @@
     "developer-name": "Samuel Abels",
     "developer-url": "http://bazaar.launchpad.net/~ubuntu-branches/ubuntu/vivid/gip/vivid/view/head:/AUTHORS",
     "description": "Provides system administrators with tools for IP address based calculations. For example, an administrator who needs to find out which IP prefix length equals the IP netmask 255.255.240.0, just types in the mask and gets the prefix length presented. But many more advanced calculations can be made. Gip can convert an address range into a list of prefix lengths. It can also split subnets using a given IP netmask or IP prefix length. Many more calculations are possible. ",
-    "tags": "Calculator, Networking",
     "launch-cmd": "gip",
     "proprietary": false,
     "alternate-to": null,

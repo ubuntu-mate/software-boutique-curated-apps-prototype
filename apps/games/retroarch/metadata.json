@@ -5,7 +5,6 @@
     "developer-name": "RetroArch Team",
     "developer-url": "https://github.com/orgs/libretro/people",
     "description": "RetroArch is an open source, multi-platform frontend for the libretro API. It is designed to be a fast, lightweight, and portable multi-system emulator. ",
-    "tags": "Game Management",
     "launch-cmd": "retroarch",
     "proprietary": false,
     "alternate-to": null,

@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "https://github.com/PintaProject/Pinta/graphs/contributors",
     "description": "Pinta's goal is to provide a simplified experience for casual users. Features include drawing tools, adjustments, effects, unlimited undo/redo. ",
-    "tags": "Graphics Editor",
     "launch-cmd": "pinta",
     "proprietary": false,
     "alternate-to": null,

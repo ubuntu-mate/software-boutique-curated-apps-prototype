@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "https://github.com/kassoulet/soundconverter/blob/py3k/AUTHORS",
     "description": "SoundConverter is a simple sound converter application It reads sound files in any format supported by GStreamer and outputs them in Ogg Vorbis, FLAC, or WAV format, or MP3 format. ",
-    "tags": "Media Conversion",
     "launch-cmd": "soundconverter",
     "proprietary": false,
     "alternate-to": null,

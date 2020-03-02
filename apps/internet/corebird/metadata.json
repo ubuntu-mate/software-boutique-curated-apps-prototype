@@ -5,7 +5,6 @@
     "developer-name": "Timm Bäder",
     "developer-url": "https://github.com/baedert/corebird/graphs/contributors",
     "description": "Corebird features inline image and video preview, creation of lists and favorites, filtering of tweets and full text search. Corebird is able to manage multiple Twitter accounts. ",
-    "tags": "Instant Messaging",
     "launch-cmd": "corebird",
     "proprietary": false,
     "alternate-to": null,

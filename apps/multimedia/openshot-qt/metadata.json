@@ -5,7 +5,6 @@
     "developer-name": "Jonathan Thomas",
     "developer-url": "https://github.com/orgs/OpenShot/people",
     "description": "A non-linear video editor that can create and edit videos and movies using many popular video, audio, and image formats. Create videos for YouTube, Flickr, Vimeo, Metacafe, Xbox, and many more common formats! ",
-    "tags": "Video Production, Video Editing",
     "launch-cmd": "openshot-qt",
     "proprietary": false,
     "alternate-to": null,

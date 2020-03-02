@@ -5,7 +5,6 @@
     "developer-name": "GNOME Team",
     "developer-url": "https://www.gnome.org/about/",
     "description": "A RAD tool to enable quick and easy development of user interfaces for the GTK+ toolkit. The user interfaces designed in Glade are stored in the well-known XML format, enabling easy integration with external tools. ",
-    "tags": "IDEs",
     "launch-cmd": "glade",
     "proprietary": false,
     "alternate-to": null,

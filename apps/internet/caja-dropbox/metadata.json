@@ -5,7 +5,6 @@
     "developer-name": "MATE Team",
     "developer-url": "https://github.com/mate-desktop/caja-dropbox/graphs/contributors",
     "description": "Lets you bring your photos, documents, and videos anywhere into Dropbox's cloud and optionally share them with others easily. ",
-    "tags": "Cloud and Sync",
     "launch-cmd": "caja-dropbox",
     "proprietary": true,
     "alternate-to": null,

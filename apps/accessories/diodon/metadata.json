@@ -5,7 +5,6 @@
     "developer-name": "Diodon Team",
     "developer-url": "https://launchpad.net/~diodon-team",
     "description": "A lightweight clipboard manager which aims to be the best integrated clipboard manager for the Ubuntu desktop. Diodon features include Ubuntu indicator, clipboard sync (primary selection and Ctrl+C / Ctrl+V clipboard) and a zeitgeist integration for an infinite clipboard history.",
-    "tags": "Desktop Management, Clipboard",
     "launch-cmd": "diodon",
     "proprietary": false,
     "alternate-to": null,

@@ -5,7 +5,6 @@
     "developer-name": "GParted Team",
     "developer-url": "http://gparted.org/contact.php",
     "description": "An advanced partition editor that uses `libparted` to detect and manipulate devices and partition tables while several (optional) filesystem tools provide support for filesystems not included in libparted.",
-    "tags": "Partitioning Tools, Disks, Filesystems, Storage, Formatting",
     "launch-cmd": "pkexec gparted",
     "proprietary": false,
     "alternate-to": null,

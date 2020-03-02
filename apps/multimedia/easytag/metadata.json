@@ -5,7 +5,6 @@
     "developer-name": "GNOME Team and Contributors",
     "developer-url": "https://git.gnome.org/browse/easytag/tree/AUTHORS",
     "description": "A utility for viewing, editing and writing the tags of different audio files. Currently EasyTAG supports viewing, editing and writing tags of MP3, MP2 files (ID3 tag), FLAC files (FLAC Vorbis tag), Ogg Opus, Ogg Speex and Ogg Vorbis files (Ogg Vorbis tag), MP4/M4A/AAC files (MPEG-4 Part 10 tag), and MusePack, Monkey's Audio files (APE tag). ",
-    "tags": "Audio Manipulation",
     "launch-cmd": "easytag",
     "proprietary": false,
     "alternate-to": null,

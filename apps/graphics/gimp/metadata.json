@@ -5,7 +5,6 @@
     "developer-name": "The GIMP Team",
     "developer-url": "https://www.gimp.org/about/authors.html",
     "description": "GIMP can edit, enhance, and retouch photos and scans, create drawings, and make your own images. It has a large collection of professional-level editing tools and filters, similar to the ones you might find in Photoshop. Numerous fine-control settings and features like layers, paths, masks, and scripting give you total control over your images. Many image file formats are supported, including JPEG, Photoshop (.psd), and Paint Shop Pro (.psp) files. It can also be used to scan and print photos. <u>The CMYK plug-ins are also included.</u> ",
-    "tags": "Graphics Editor",
     "launch-cmd": "gimp",
     "proprietary": false,
     "alternate-to": "Adobe&reg; Photoshop",

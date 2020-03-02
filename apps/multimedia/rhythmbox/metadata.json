@@ -5,7 +5,6 @@
     "developer-name": "GNOME Team and Contributors",
     "developer-url": "https://github.com/GNOME/rhythmbox/blob/master/AUTHORS",
     "description": "Rhythmbox is a very easy to use music playing and management program which supports a wide range of audio formats (including mp3 and ogg). Originally inspired by Apple's iTunes, the current version also supports Internet Radio, iPod integration and generic portable audio player support, Audio CD burning, Audio CD playback, music sharing, and Podcasts. ",
-    "tags": "Media Playbox",
     "launch-cmd": "rhythmbox",
     "proprietary": false,
     "alternate-to": "Apple iTunes",

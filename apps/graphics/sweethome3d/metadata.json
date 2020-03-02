@@ -5,7 +5,6 @@
     "developer-name": "eTeks",
     "developer-url": "http://www.eteks.com/index_us.html",
     "description": "An interior design application for quickly choosing and placing furniture on a house 2D plan drawn by the end-user, with a 3D preview. ",
-    "tags": "3D Modelling",
     "launch-cmd": "sweethome3d",
     "proprietary": false,
     "alternate-to": null,

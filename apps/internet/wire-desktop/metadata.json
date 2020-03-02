@@ -5,7 +5,6 @@
     "developer-name": "Wire Swiss GmbH",
     "developer-url": "https://wire.com/en/impressum/",
     "description": "Modern communication. Full privacy. Crystal clear voice and video calls. Chats full of pics, movies, GIFs, music, sketches and more. Always private and secure with end-to-end encryption. ",
-    "tags": "Instant Messaging",
     "launch-cmd": "/opt/wire-desktop/wire-desktop",
     "proprietary": false,
     "alternate-to": "WhatsApp",

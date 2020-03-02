@@ -5,7 +5,6 @@
     "developer-name": "Jendrik Seipp",
     "developer-url": "http://jendrikseipp.de/",
     "description": "A graphical diary and journal to keep track of notes and thoughts throughout the day. It includes a calendar navigation, customisable templates for each day, and a keyword search and cloud. ",
-    "tags": "Productivity Tracking, Notes",
     "launch-cmd": "rednotebook",
     "proprietary": false,
     "alternate-to": null,

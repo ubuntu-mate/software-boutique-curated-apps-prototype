@@ -5,7 +5,6 @@
     "developer-name": "Maarten Baert and Contributors",
     "developer-url": "https://github.com/MaartenBaert/ssr/blob/master/AUTHORS.md",
     "description": "A feature-rich screen recorder that can record the entire screen or part of it, or record OpenGL applications directly. The recording can be paused and resumed at any time. Many different file formats and codecs are supported. ",
-    "tags": "Video Production",
     "launch-cmd": "simplescreenrecorder",
     "proprietary": false,
     "alternate-to": null,

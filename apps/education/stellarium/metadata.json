@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "https://github.com/Stellarium/stellarium/blob/master/AUTHORS",
     "description": "A planetarium for your computer that renders 3D photo-realistic skies in real-time so you really see what you can see with your eyes, binoculars or a small telescope. It features a default star catalogue with over 600 thousand stars, information about the brightest stars (spectral type, distance, etc.), downloadable star catalogue extensions, for up to 210 million stars, all New General Catalogue (NGC) objects, images of almost all Messier objects and the Milky Way, real time positions of the planets and their satellites, 13 different cultures with their constellations, artistic illustrations of the 88 Western constellations, very realistic atmosphere, sunrise and sunset, and 7 panoramic landscapes (more can be made or downloaded from the website). Stellarium should not be used for very high accurate calculation or ephemerids like eclipse predictions. However, it is the ideal program to prepare an observation evening with naked eye, binocular, or small telescope. ",
-    "tags": "Science, Space, Si-Fi",
     "launch-cmd": "stellarium",
     "proprietary": false,
     "alternate-to": null,

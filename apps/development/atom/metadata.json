@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "https://github.com/atom/atom/graphs/contributors",
     "description": "Atom is a text editor that is modern, approachable, yet hackable to the core-a tool you can customize to do anything but also use productively without ever touching a config file. ",
-    "tags": "IDEs",
     "launch-cmd": "atom",
     "proprietary": false,
     "alternate-to": null,

@@ -5,7 +5,6 @@
     "developer-name": "Various Contributors",
     "developer-url": "https://www.openssh.com/history.html",
     "description": "A suite of software utilising the <code>ssh</code> protocol to securely connect to another computer. The protocol uses encryption and multiple authentication methods to provide secure tunneling as well as support for SFTP and X11 forwarding. <ul><li><b>Note: </b><i>This will also install <code>sshguard</code> to protect your computer from network attacks.</i></li></ul> ",
-    "tags": "Server",
     "launch-cmd": null,
     "proprietary": false,
     "alternate-to": null,

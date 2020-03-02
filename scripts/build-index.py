@@ -21,6 +21,8 @@ Validates and compiles the application index for use with Software Boutique.
 This script assembles the index and assets that will be used.
 """
 
+__INDEX_VERSION__ = 6
+
 import os
 import glob
 import inspect
@@ -159,7 +161,8 @@ new_index["stats"] = {
     "categories": categories_no,
     "apps": apps_no,
     "compiled": timestamp,
-    "revision": git_revision_count
+    "revision": git_revision_count,
+    "version": __INDEX_VERSION__
 }
 
 # Save new index to file
@@ -205,6 +208,7 @@ for locale in locales:
         json.dump(localised_index, f, sort_keys=True)
 
 print_msg(2, "Index successfully compiled.\n")
+print_msg(2, "   Index Version: " + str(__INDEX_VERSION__))
 print_msg(2, "        Revision: " + str(git_revision_count))
 print_msg(2, "      Categories: " + str(categories_no))
 print_msg(2, "    Applications: " + str(apps_no))

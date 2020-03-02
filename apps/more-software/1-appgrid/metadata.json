@@ -5,7 +5,6 @@
     "developer-name": "pgg",
     "developer-url": "https://launchpad.net/~pgg",
     "description": "Helps you discover and install apps for Ubuntu MATE. Written from scratch, App Grid delivers stunning startup speed, and swift reactions throughout. A clean and simple design makes App Grid a joy to use. No confusion, no frustration. Discover the best of Open Source in the Ubuntu archives. Or purchase additional apps via Ubuntu One. Complete with ratings, reviews and screenshots. ",
-    "tags": "Software Center, Applications, Software",
     "launch-cmd": "appgrid",
     "proprietary": true,
     "alternate-to": null,

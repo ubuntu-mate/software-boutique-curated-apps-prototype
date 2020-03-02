@@ -5,7 +5,6 @@
     "developer-name": "Valve Corporation",
     "developer-url": "http://www.valvesoftware.com/",
     "description": "The ultimate entertainment platform. Play games, connect with friends, even create and share content of your own. Join 50 million of your closest friends on Steam. Enjoy exclusive deals, automatic game updates, and cross-platform multiplayer. Plus, now you take advantage of Big Picture mode, designed for use with your TV and game controller. ",
-    "tags": "Game Management",
     "launch-cmd": "steam",
     "proprietary": true,
     "alternate-to": null,

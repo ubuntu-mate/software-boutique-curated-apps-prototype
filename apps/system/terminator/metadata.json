@@ -5,7 +5,6 @@
     "developer-name": "Terminator Team",
     "developer-url": "https://launchpad.net/~gnome-terminator",
     "description": "A little project to produce an efficient way of filling a large area of screen space with terminals. The user can have multiple terminals in one window and use key bindings to switch between them. ",
-    "tags": "Automation, Window Management",
     "launch-cmd": "terminator",
     "proprietary": false,
     "alternate-to": null,

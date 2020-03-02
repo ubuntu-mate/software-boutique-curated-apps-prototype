@@ -5,7 +5,6 @@
     "developer-name": "Johannes H. Jensen & Contributors",
     "developer-url": "https://github.com/joh/alarm-clock/blob/master/AUTHORS",
     "description": "A fully-featured alarm clock which resides in the notification area. It is easy to use yet powerful with support for multiple and repeatable alarms, as well as snoozing and a flexible notification system. Two types of alarms are supported: Alarm Clocks and Timers. Notification is done by either playing a sound or launching an application. ",
-    "tags": "Clock, Alarm, Reminders, Applet",
     "launch-cmd": "alarm-clock-applet",
     "proprietary": false,
     "alternate-to": null,

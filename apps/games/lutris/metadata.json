@@ -5,7 +5,6 @@
     "developer-name": "Lutris Gaming",
     "developer-url": "https://github.com/orgs/lutris/people",
     "description": "Lutris is an open gaming platform for Linux. It helps you install and manage your games in a unified interface. ",
-    "tags": "Game Management",
     "launch-cmd": "lutris",
     "proprietary": false,
     "alternate-to": null,

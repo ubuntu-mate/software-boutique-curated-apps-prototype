@@ -5,7 +5,6 @@
     "developer-name": "GCompris Team",
     "developer-url": "http://gcompris.net/wiki/Developer%27s_corner",
     "description": "A high quality educational software suite comprising of numerous activities for children aged 2 to 10. Some of the activities are game orientated, but nonetheless still educational. Currently GCompris offers in excess of 100 activities covering computer discovery, arithmetic, science, geography, games, reading, learn to tell time, puzzle of famous paintings, vector drawing, cartoon making and much more. ",
-    "tags": "Children, Preschool, Learning, Educational",
     "launch-cmd": "gcompris",
     "proprietary": false,
     "alternate-to": null,

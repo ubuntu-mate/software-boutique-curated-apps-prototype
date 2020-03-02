@@ -5,7 +5,6 @@
     "developer-name": "GNOME Team",
     "developer-url": "https://www.gnome.org/about/",
     "description": "Brasero is a simple application to burn, copy and erase CD and DVD media: audio, video or data. It features among other things: <ul><li>On-the-fly burning</li> <li>Multisession support</li> <li>On-the-fly conversion of music playlists in all formats supported by GStreamer</li></ul> ",
-    "tags": "CD/DVD Burning, Multimedia",
     "launch-cmd": "brasero",
     "proprietary": false,
     "alternate-to": null,

@@ -33,7 +33,6 @@ Each folder is expected to have:
 | description   | string    | Yes       | A more in-depth description of the application.
 | developer-name| string    | Yes       | Author's name, whether it's an individual or company.
 | developer-url | string    | Yes       | Website for the author or company.
-| tags          | string    | Yes       | Categories for this application and search key words. Comma separated. e.g. "texteditor", "System", "Office", "Application"
 | launch-cmd    | string    | No        | Command to launch the installed program.
 | alternate-to  | string    | No        | Mention the app is similar to another product.
 | proprietary   | boolean   | Yes       | Is this non-free software?

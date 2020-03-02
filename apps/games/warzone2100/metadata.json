@@ -5,7 +5,6 @@
     "developer-name": "Pumpkin Studios and Contributors",
     "developer-url": "https://github.com/Warzone2100/warzone2100/blob/master/AUTHORS",
     "description": "Requires you to command the forces of 'The Project' in a battle to rebuild the world after mankind has almost been destroyed by nuclear missiles. The game offers campaign, tutorial, multi-player and single-player skirmish modes. An extensive tech tree with over 400 different technologies, combined with the unit design system, allows for a wide variety of possible units and tactics. <u>The campaign video sequences are not yet distributed here, please see the Warzone 2100 website for details on downloading and installing them.</u> ",
-    "tags": "Strategy",
     "launch-cmd": "warzone2100",
     "proprietary": false,
     "alternate-to": null,

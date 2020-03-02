@@ -5,7 +5,6 @@
     "developer-name": "Mojang",
     "developer-url": "https://www.mojang.com",
     "description": "Installs the official server so you can create your own multi-player world to play with family and friends. <br><br>When installed, run <code>minecraft-server</code> in the folder used for the server <br>To learn more on setting up, see the <a onclick=\"cmd('link?http://minecraft.gamepedia.com/Setting_up_a_server')\"> Minecraft Wiki </A>. ",
-    "tags": "Server, Gaming",
     "launch-cmd": null,
     "proprietary": true,
     "alternate-to": null,

@@ -5,7 +5,6 @@
     "developer-name": "Nexuiz Team and Contributors",
     "developer-url": "http://www.alientrap.com/games/nexuiz/",
     "description": "A fast-paced 3D deathmatch game with high-end and complex graphics effects. It is intended to be played over the Internet or over a local network. Several different game types, such as classic deathmatch, team deathmatch and capture the flag are available. It also supports a single-player mode and playing against the computer. The game brings deathmatch back to the basics, with perfect weapon balancing and fast paced action, keeping itself away from the current trend of realistic shooters. ",
-    "tags": "Shooter",
     "launch-cmd": "nexuiz",
     "proprietary": false,
     "alternate-to": null,

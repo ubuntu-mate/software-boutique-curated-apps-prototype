@@ -5,7 +5,6 @@
     "developer-name": "GNOME Team and Contributors",
     "developer-url": "https://github.com/GNOME/cheese/blob/master/AUTHORS",
     "description": "An application that allows you to take pictures or record video using your webcam. You can also apply fancy visual effects, fine-tune image settings as well as the Multi-Burst mode and countdown timer for photos. ",
-    "tags": "Photography",
     "launch-cmd": "cheese",
     "proprietary": false,
     "alternate-to": null,

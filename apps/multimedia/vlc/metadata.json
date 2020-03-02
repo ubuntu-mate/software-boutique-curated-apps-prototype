@@ -5,7 +5,6 @@
     "developer-name": "VideoLAN Team and Contributors",
     "developer-url": "https://github.com/videolan/vlc/blob/master/AUTHORS",
     "description": "VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs, podcasts, and multimedia streams from various network sources. ",
-    "tags": "Media Playback",
     "launch-cmd": "vlc",
     "proprietary": false,
     "alternate-to": null,

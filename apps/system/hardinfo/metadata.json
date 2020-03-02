@@ -5,7 +5,6 @@
     "developer-name": "Leandro Pereira and Contributors",
     "developer-url": "https://github.com/lpereira/hardinfo/blob/master/AUTHORS.md",
     "description": "<b>Known as HardInfo</b>. A small application that displays information about your hardware and operating system. Currently it knows about PCI, ISA PnP, USB, IDE, SCSI, Serial and parallel port devices. ",
-    "tags": "System Information, Monitoring",
     "launch-cmd": "hardinfo",
     "proprietary": false,
     "alternate-to": null,

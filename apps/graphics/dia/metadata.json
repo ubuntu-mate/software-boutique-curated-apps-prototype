@@ -5,7 +5,6 @@
     "developer-name": "GNOME Team",
     "developer-url": "https://www.gnome.org/about/",
     "description": "An editor for diagrams, graphs, charts etc. There is support for UML static structure diagrams (class diagrams), Entity-Relationship diagrams, network diagrams and much more. Diagrams can be exported to postscript and many other formats. ",
-    "tags": "Drawing",
     "launch-cmd": "dia-gnome",
     "proprietary": false,
     "alternate-to": "Microsoft&reg; Office Visio&reg;",
