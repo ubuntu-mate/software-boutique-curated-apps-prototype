@@ -1,8 +1,11 @@
 ## Software Boutique Curated Index Format
 
-| Revision  | Last Modified |
+| Version   | Last Modified |
 | --------- | ------------- |
 | 5         | June 2017     |
+| 7         | March 2020    |
+
+The **revision number** is the amount of commits made in this repository.
 
 Each application is stored in its own subfolder inside the category folder, for
 example:
