@@ -22,9 +22,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "spideroakone",
             "install-packages": [
                 "spideroakone"
@@ -34,7 +34,11 @@
             ],
             "source": "manual",
             "list-file": "spideroakone.list",
-            "list-key-url": "https://spideroak.com/dist/spideroak-apt-2016.asc"
+            "list-key-url": "https://spideroak.com/dist/spideroak-apt-2016.asc",
+            "list-contents": "deb http://APT.spideroak.com/ubuntu-spideroak-hardy/ release restricted"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

@@ -22,9 +22,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "google-musicmanager-beta",
             "install-packages": [
                 "google-musicmanager-beta"
@@ -34,7 +34,11 @@
             ],
             "source": "manual",
             "list-file": "google-musicmanager.list",
-            "list-key-url": "http://dl.google.com/linux/linux_signing_key.pub"
+            "list-key-url": "http://dl.google.com/linux/linux_signing_key.pub",
+            "list-contents": "deb http://dl.google.com/linux/musicmanager/deb/ stable main"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

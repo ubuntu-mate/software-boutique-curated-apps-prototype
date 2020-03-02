@@ -20,9 +20,9 @@
     "releases": [
         "xenial"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "gnome-orca",
             "install-packages": [
                 "gnome-orca"
@@ -30,5 +30,8 @@
             "remove-packages": [],
             "source": "ppa:accessibility-dev/ppa"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

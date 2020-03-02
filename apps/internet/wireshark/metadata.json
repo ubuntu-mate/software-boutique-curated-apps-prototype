@@ -24,8 +24,8 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
+    "methods": ["apt"],
+    "apt": {
         "artful": {
             "main-package": "wireshark-gtk",
             "install-packages": [
@@ -37,7 +37,7 @@
             ],
             "source": "universe"
         },
-        "all": {
+        "default": {
             "main-package": "wireshark-gtk",
             "install-packages": [
                 "wireshark-gtk"
@@ -48,5 +48,8 @@
             ],
             "source": "ppa:wireshark-dev/stable"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

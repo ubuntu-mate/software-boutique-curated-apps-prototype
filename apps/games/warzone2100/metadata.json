@@ -22,9 +22,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "warzone2100",
             "install-packages": [
                 "warzone2100",
@@ -38,5 +38,8 @@
             ],
             "source": "universe"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

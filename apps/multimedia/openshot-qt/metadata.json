@@ -23,9 +23,9 @@
         "xenial",
         "zesty"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "openshot-qt",
             "install-packages": [
                 "openshot-qt"
@@ -35,5 +35,8 @@
             ],
             "source": "ppa:openshot.developers/ppa"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

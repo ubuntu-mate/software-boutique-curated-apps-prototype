@@ -22,9 +22,9 @@
         "xenial",
         "zesty"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "gns3",
             "install-packages": [
                 "gns3-gui"
@@ -34,5 +34,8 @@
             ],
             "source": "ppa:gns3/ppa"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

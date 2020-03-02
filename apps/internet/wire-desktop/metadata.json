@@ -22,9 +22,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "wire-desktop",
             "install-packages": [
                 "wire-desktop"
@@ -34,7 +34,11 @@
             ],
             "source": "manual",
             "list-file": "wire-desktop.list",
-            "list-key-url": "https://wire-app.wire.com/linux/releases.key"
+            "list-key-url": "https://wire-app.wire.com/linux/releases.key",
+            "list-contents": "deb https://wire-app.wire.com/linux/debian stable main"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

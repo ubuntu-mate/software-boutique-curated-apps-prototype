@@ -24,9 +24,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "rapid-photo-downloader",
             "install-packages": [
                 "rapid-photo-downloader"
@@ -36,5 +36,8 @@
             ],
             "source": "universe"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

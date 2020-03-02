@@ -22,9 +22,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "etcher-electron",
             "install-packages": [
                 "etcher-electron"
@@ -34,7 +34,11 @@
             ],
             "source": "manual",
             "list-file": "etcher.list",
-            "list-key-server": ["hkp://pgp.mit.edu:80", "379CE192D401AB61"]
+            "list-key-server": ["hkp://pgp.mit.edu:80", "379CE192D401AB61"],
+            "list-contents": "deb https://dl.bintray.com/resin-io/debian stable etcher"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

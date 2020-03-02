@@ -21,7 +21,7 @@ Validates and compiles the application index for use with Software Boutique.
 This script assembles the index and assets that will be used.
 """
 
-__INDEX_VERSION__ = 6
+__INDEX_VERSION__ = 7
 
 import os
 import glob
@@ -103,13 +103,13 @@ for category in categories:
     for appid in apps:
         # Spaces are not allowed in app IDs.
         if appid.find(" ") != -1:
-            print_msg(1, "{0}/{1} = Spaces are not allowed in app ID.".format(category, appid))
+            print_msg(1, "Spaces are not allowed in app ID: {0}/{1}".format(category, appid))
             continue
 
         # Is there config stored for this?
         json_path = os.path.join(source_folder, category, appid, "metadata.json")
         if not os.path.exists(json_path):
-            print_msg(1, "{0}/{1} = Missing metadata.json!".format(category, appid))
+            print_msg(1, "Missing metadata.json: {0}/{1}".format(category, appid))
             continue
 
         # Load JSON Index
@@ -117,16 +117,17 @@ for category in categories:
             with open(json_path) as f:
                 index = json.load(f)
         except Exception as e:
-            print_msg(1, "{0}/{1} = Corrupt metadata.json! (Exception: {2})".format(category, appid, str(e)))
+            print_msg(1, "\nCorrupt metadata.json: {0}/{1}".format(category, appid))
+            print_msg(1, str(e) + "\n")
             continue
 
         # If unlisted, skip this.
         try:
             if index["listed"] == False:
-                print_msg(3, "{0}/{1} = Marked as unlisted.".format(category, appid))
+                print_msg(3, "Marked as unlisted: {0}/{1}".format(category, appid))
                 continue
         except Exception:
-            print_msg(1, "{0}/{1} = No 'listed' key.".format(category, appid))
+            print_msg(1, "No 'listed' key: {0}/{1}".format(category, appid))
             break
 
         # Add to compiled index

@@ -23,9 +23,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "deja-dup",
             "install-packages": [
                 "deja-dup",
@@ -43,5 +43,8 @@
             ],
             "source": "main"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

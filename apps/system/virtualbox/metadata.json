@@ -21,9 +21,9 @@
         "xenial",
         "zesty"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "virtualbox-5.1",
             "install-packages": [
                 "virtualbox-5.1"
@@ -33,7 +33,11 @@
             ],
             "source": "manual",
             "list-file": "virtualbox.list",
-            "list-key-url": "https://www.virtualbox.org/download/oracle_vbox_2016.asc"
+            "list-key-url": "https://www.virtualbox.org/download/oracle_vbox_2016.asc",
+            "list-contents": "deb http://download.virtualbox.org/virtualbox/debian CODENAME contrib"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

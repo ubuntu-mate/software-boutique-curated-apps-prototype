@@ -24,9 +24,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "x2goclient",
             "install-packages": [
                 "x2goclient"
@@ -36,5 +36,8 @@
             ],
             "source": "ppa:x2go/stable"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

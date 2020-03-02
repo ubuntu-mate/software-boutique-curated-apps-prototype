@@ -21,9 +21,9 @@
         "xenial",
         "zesty"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "winehq-devel",
             "install-packages": [
                 "winehq-devel"
@@ -33,7 +33,12 @@
             ],
             "source": "manual",
             "list-file": "wine-builds.list",
-            "list-key-url": "https://dl.winehq.org/wine-builds/Release.key"
+            "list-key-url": "https://dl.winehq.org/wine-builds/Release.key",
+            "list-contents": "deb https://dl.winehq.org/wine-builds/ubuntu/ CODENAME main",
+            "enable-i386": true
         }
-    }
+    },
+    "snap": {
+		"name": "test"
+	}
 }

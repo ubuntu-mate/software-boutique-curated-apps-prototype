@@ -21,9 +21,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "slack-desktop",
             "install-packages": [
                 "slack-desktop"
@@ -33,7 +33,11 @@
             ],
             "source": "manual",
             "list-file": "slack.list",
-            "list-key-url": "https://packagecloud.io/slacktechnologies/slack/gpgkey"
+            "list-key-url": "https://packagecloud.io/slacktechnologies/slack/gpgkey",
+            "list-contents": "deb https://packagecloud.io/slacktechnologies/slack/debian/ jessie main"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

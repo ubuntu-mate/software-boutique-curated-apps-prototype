@@ -23,9 +23,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "syncthing",
             "install-packages": [
                 "syncthing"
@@ -35,7 +35,11 @@
             ],
             "source": "manual",
             "list-file": "syncthing.list",
-            "list-key-url": "https://syncthing.net/release-key.txt"
+            "list-key-url": "https://syncthing.net/release-key.txt",
+            "list-contents": "deb http://apt.syncthing.net/ syncthing release"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

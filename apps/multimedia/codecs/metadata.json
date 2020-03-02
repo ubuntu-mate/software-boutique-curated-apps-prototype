@@ -24,9 +24,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "libavcodec-extra",
             "install-packages": [
                 "libavcodec-extra",
@@ -46,5 +46,8 @@
             ],
             "source": "universe"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

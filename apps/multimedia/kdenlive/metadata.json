@@ -24,9 +24,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "kdenlive",
             "install-packages": [
                 "kdenlive",
@@ -37,5 +37,8 @@
             ],
             "source": "universe"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

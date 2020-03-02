@@ -24,9 +24,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "anoise",
             "install-packages": [
                 "anoise",
@@ -40,5 +40,8 @@
             ],
             "source": "ppa:costales/anoise"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

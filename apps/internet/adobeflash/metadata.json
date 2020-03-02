@@ -22,9 +22,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "flashplugin-installer",
             "install-packages": [
                 "flashplugin-installer",
@@ -35,5 +35,8 @@
             ],
             "source": "ppa:flexiondotorg/hal-flash"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

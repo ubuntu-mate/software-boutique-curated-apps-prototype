@@ -20,9 +20,9 @@
     "releases": [
         "xenial"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "steam:i386",
             "install-packages": [
                 "steam:i386"
@@ -30,7 +30,11 @@
             "remove-packages": [
                 "steam:i386"
             ],
-            "source": "multiverse"
+            "source": "multiverse",
+            "enable-i386": true
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

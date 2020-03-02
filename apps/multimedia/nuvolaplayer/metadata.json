@@ -21,9 +21,9 @@
         "xenial",
         "zesty"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "nuvolaplayer3",
             "install-packages": [
                 "nuvolaplayer3",
@@ -38,7 +38,11 @@
             "list-key-server": [
                 "keyserver.ubuntu.com",
                 "40554B8FA5FE6F6A"
-            ]
+            ],
+            "list-contents": "deb https://tiliado.eu/nuvolaplayer/repository/deb/ CODENAME stable"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

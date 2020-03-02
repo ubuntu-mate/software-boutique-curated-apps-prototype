@@ -24,9 +24,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "eviacam",
             "install-packages": [
                 "eviacam"
@@ -46,5 +46,8 @@
             ],
             "source": "ppa:cesar-crea-si/eviacam"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

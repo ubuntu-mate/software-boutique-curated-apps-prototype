@@ -22,9 +22,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "minecraft-installer",
             "install-packages": [
                 "minecraft-installer"
@@ -34,5 +34,8 @@
             ],
             "source": "ppa:flexiondotorg/minecraft"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

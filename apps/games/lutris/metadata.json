@@ -21,9 +21,9 @@
         "xenial",
         "zesty"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "lutris",
             "install-packages": [
                 "lutris"
@@ -33,7 +33,11 @@
             ],
             "source": "main",
             "list-file": "lutris.list",
-            "list-key-url": "http://download.opensuse.org/repositories/home:/strycore/xUbuntu_OSVERSION/Release.key"
+            "list-key-url": "http://download.opensuse.org/repositories/home:/strycore/xUbuntu_OSVERSION/Release.key",
+            "list-contents": "deb http://download.opensuse.org/repositories/home:/strycore/xUbuntu_OSVERSION/ /"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

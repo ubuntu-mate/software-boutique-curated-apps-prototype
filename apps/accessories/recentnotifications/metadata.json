@@ -21,9 +21,9 @@
         "xenial",
         "zesty"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "indicator-notifications",
             "install-packages": [
                 "indicator-notifications",
@@ -35,5 +35,8 @@
             ],
             "source": "ppa:jconti/recent-notifications"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

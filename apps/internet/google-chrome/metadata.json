@@ -21,9 +21,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "google-chrome-stable",
             "install-packages": [
                 "google-chrome-stable"
@@ -33,7 +33,11 @@
             ],
             "source": "manual",
             "list-file": "google-chrome.list",
-            "list-key-url": "http://dl.google.com/linux/linux_signing_key.pub"
+            "list-key-url": "http://dl.google.com/linux/linux_signing_key.pub",
+            "list-contents": "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

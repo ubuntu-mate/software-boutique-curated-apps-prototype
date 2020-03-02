@@ -22,9 +22,9 @@
         "xenial",
         "zesty"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "aptik",
             "install-packages": [
                 "aptik"
@@ -34,5 +34,8 @@
             ],
             "source": "ppa:teejee2008/ppa"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

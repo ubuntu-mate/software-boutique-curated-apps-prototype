@@ -54,7 +54,7 @@ def list_to_string(list_data):
 
 # Populate indexes
 print_msg(3, "Reading indexes...")
-os.chdir(os.path.join(os.path.dirname(__file__), "..", "source", "apps"))
+os.chdir(os.path.join(os.path.dirname(__file__), "..", "apps"))
 categories = glob.glob("*")
 indexes = []
 
@@ -76,13 +76,23 @@ print_msg(3, "There are {0} applications indexed.".format(len(indexes)))
 
 count_open_source = 0
 count_proprietary = 0
+count_32_bit_apps = 0
 for index in indexes:
     if index["proprietary"] == True:
         count_proprietary += 1
     else:
         count_open_source += 1
+
+    try:
+        for codename in index["apt"]:
+            if index["apt"][codename]["enable-i386"] == True:
+                count_32_bit_apps += 1
+    except KeyError:
+        pass
+
 print("  - Open Source: {0}".format(str(count_open_source)))
 print("  - Proprietary: {0}".format(str(count_proprietary)))
+print("  - 32-bit apps: {0}".format(str(count_32_bit_apps)))
 print("\n")
 
 # How many are marked as unlisted?
@@ -133,7 +143,7 @@ for arch in watched_arch:
 for method in watched_methods:
     matches = []
     for index in indexes:
-        if method == index["method"]:
+        if method in index["methods"]:
             matches.append(index["name"])
 
     if len(matches) == 0:
@@ -144,11 +154,26 @@ for method in watched_methods:
             print("  - {0}".format(app))
         print("\n")
 
+# List apps that support multiple installs
+matches = []
+for index in indexes:
+    if len(index["methods"]) > 1:
+        matches.append([index["name"], index["methods"]])
+
+if len(matches) == 0:
+    print_msg(2, "All applications only support one installation method.\n")
+else:
+    print_msg(3, "These applications support multiple installation methods:")
+    for app in matches:
+        print("  - {0} - {1}".format(app[0], print_colour_only(4, list_to_string(app[1]))))
+    print("\n")
+
+
 # List apps that install differently per release
 matches = []
 for index in indexes:
-    if len(index["installation"].keys()) > 1:
-        matches.append([index["name"], list(index["installation"].keys())])
+    if len(index["apt"].keys()) > 1:
+        matches.append([index["name"], list(index["apt"].keys())])
 
 if len(matches) == 0:
     print_msg(2, "All applications install the same way in every release.\n")

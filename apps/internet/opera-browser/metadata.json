@@ -22,9 +22,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "opera-stable",
             "install-packages": [
                 "opera-stable"
@@ -34,7 +34,11 @@
             ],
             "source": "manual",
             "list-file": "opera-stable.list",
-            "list-key-url": "https://deb.opera.com/archive.key"
+            "list-key-url": "https://deb.opera.com/archive.key",
+            "list-contents": "deb https://deb.opera.com/opera-stable/ stable non-free"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

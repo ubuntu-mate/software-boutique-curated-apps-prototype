@@ -21,9 +21,9 @@
         "xenial",
         "zesty"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "nextcloud-client-caja",
             "install-packages": [
                 "nextcloud-client",
@@ -35,5 +35,8 @@
             ],
             "source": "ppa:nextcloud-devs/client"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

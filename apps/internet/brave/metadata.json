@@ -21,9 +21,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "brave",
             "install-packages": [
                 "brave"
@@ -33,7 +33,11 @@
             ],
             "source": "manual",
             "list-file": "brave.list",
-            "list-key-url": "https://s3-us-west-2.amazonaws.com/brave-apt/keys.asc"
+            "list-key-url": "https://s3-us-west-2.amazonaws.com/brave-apt/keys.asc",
+            "list-contents": "deb [arch=amd64] https://s3-us-west-2.amazonaws.com/brave-apt CODENAME main"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

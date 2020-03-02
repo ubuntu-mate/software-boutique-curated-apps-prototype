@@ -20,9 +20,9 @@
     "releases": [
         "xenial"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "appgrid",
             "install-packages": [
                 "appgrid"
@@ -32,5 +32,8 @@
             ],
             "source": "ppa:appgrid/stable"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

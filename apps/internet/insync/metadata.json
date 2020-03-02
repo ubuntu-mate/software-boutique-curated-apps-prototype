@@ -22,9 +22,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "insync",
             "install-packages": [
                 "insync",
@@ -39,7 +39,11 @@
             "list-key-server": [
                 "keyserver.ubuntu.com",
                 "ACCAF35C"
-            ]
+            ],
+            "list-contents": "deb http://apt.insynchq.com/ubuntu trusty non-free contrib"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

@@ -24,9 +24,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "remmina",
             "install-packages": [
                 "remmina",
@@ -44,5 +44,8 @@
             ],
             "source": "main"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

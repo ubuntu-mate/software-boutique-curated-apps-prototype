@@ -23,9 +23,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "thunderbird",
             "install-packages": [
                 "thunderbird"
@@ -35,5 +35,8 @@
             ],
             "source": "main"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

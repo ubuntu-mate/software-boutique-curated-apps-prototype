@@ -22,9 +22,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "libreoffice-core",
             "install-packages": [
                 "libreoffice-core",
@@ -46,5 +46,8 @@
             ],
             "source": "main"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

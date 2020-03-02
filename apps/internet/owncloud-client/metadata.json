@@ -21,9 +21,9 @@
         "xenial",
         "zesty"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "owncloud-client-caja",
             "install-packages": [
                 "owncloud-client",
@@ -35,7 +35,11 @@
             ],
             "source": "manual",
             "list-file": "owncloud-client.list",
-            "list-key-url": "http://download.opensuse.org/repositories/isv:ownCloud:desktop/Ubuntu_OSVERSION/Release.key"
+            "list-key-url": "http://download.opensuse.org/repositories/isv:ownCloud:desktop/Ubuntu_OSVERSION/Release.key",
+            "list-contents": "deb http://download.opensuse.org/repositories/isv:/ownCloud:/desktop/Ubuntu_OSVERSION/ /"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

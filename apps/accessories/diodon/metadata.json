@@ -22,9 +22,9 @@
     "releases": [
         "xenial"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "diodon",
             "install-packages": [
                 "diodon"
@@ -34,5 +34,8 @@
             ],
             "source": "universe"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

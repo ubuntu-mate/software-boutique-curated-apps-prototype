@@ -22,9 +22,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "enpass",
             "install-packages": [
                 "enpass"
@@ -34,7 +34,11 @@
             ],
             "source": "manual",
             "list-file": "enpass.list",
-            "list-key-url": "http://repo.sinew.in/keys/enpass-linux.key"
+            "list-key-url": "http://repo.sinew.in/keys/enpass-linux.key",
+            "list-contents": "deb http://repo.sinew.in/ stable main"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

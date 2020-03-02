@@ -21,9 +21,9 @@
         "xenial",
         "zesty"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "x2goserver",
             "install-packages": [
                 "x2goserver",
@@ -39,5 +39,8 @@
             ],
             "source": "ppa:x2go/stable"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

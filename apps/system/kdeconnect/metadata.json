@@ -21,9 +21,9 @@
         "xenial",
         "zesty"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "indicator-kdeconnect",
             "install-packages": [
                 "indicator-kdeconnect"
@@ -33,5 +33,8 @@
             ],
             "source": "ppa:webupd8team/indicator-kdeconnect"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

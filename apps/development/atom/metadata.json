@@ -22,9 +22,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "atom",
             "install-packages": [
                 "atom"
@@ -34,5 +34,8 @@
             ],
             "source": "ppa:webupd8team/atom"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

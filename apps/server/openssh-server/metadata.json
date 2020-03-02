@@ -24,9 +24,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "ssh",
             "install-packages": [
                 "ssh",
@@ -38,5 +38,8 @@
             ],
             "source": "main"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

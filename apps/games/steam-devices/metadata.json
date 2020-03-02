@@ -21,9 +21,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "steam-devices",
             "install-packages": [
                 "steam:i386",
@@ -34,5 +34,8 @@
             ],
             "source": "multiverse"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

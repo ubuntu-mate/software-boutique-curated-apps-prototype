@@ -21,9 +21,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "code",
             "install-packages": [
                 "code"
@@ -33,7 +33,11 @@
             ],
             "source": "manual",
             "list-file": "vscode.list",
-            "list-key-url": "https://packages.microsoft.com/keys/microsoft.asc"
+            "list-key-url": "https://packages.microsoft.com/keys/microsoft.asc",
+            "list-contents": "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

@@ -24,9 +24,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "youtube-dlg",
             "install-packages": [
                 "youtube-dl",
@@ -38,5 +38,8 @@
             ],
             "source": "ppa:flexiondotorg/youtube-dl-gui"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }

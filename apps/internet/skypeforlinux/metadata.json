@@ -21,9 +21,9 @@
         "zesty",
         "artful"
     ],
-    "method": "apt",
-    "installation": {
-        "all": {
+    "methods": ["apt"],
+    "apt": {
+        "default": {
             "main-package": "skypeforlinux",
             "install-packages": [
                 "skypeforlinux"
@@ -33,7 +33,11 @@
             ],
             "source": "manual",
             "list-file": "skype-stable.list",
-            "list-key-url": "https://repo.skype.com/data/SKYPE-GPG-KEY"
+            "list-key-url": "https://repo.skype.com/data/SKYPE-GPG-KEY",
+            "list-contents": "deb [arch=amd64] https://repo.skype.com/deb stable main"
         }
-    }
+    },
+    "snap": {
+		"name": null
+	}
 }
