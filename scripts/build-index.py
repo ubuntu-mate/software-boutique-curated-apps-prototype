@@ -1,12 +1,5 @@
 #!/usr/bin/python3
 #
-# Validates and compiles the application index for use with Software Boutique.
-#
-# This script assembles the index and assets that will be used.
-# Output dir: dist/
-#
-# Copyright 2018-2019 Luke Horwell <code@horwell.me>
-#
 # Software Boutique is free software: you can redistribute it and/or modify
 # it under the temms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -20,6 +13,13 @@
 # You should have received a copy of the GNU General Public License
 # along with Software Boutique. If not, see <http://www.gnu.org/licenses/>.
 #
+# Copyright 2018-2020 Luke Horwell <code@horwell.me>
+#
+"""
+Validates and compiles the application index for use with Software Boutique.
+
+This script assembles the index and assets that will be used.
+"""
 
 import os
 import glob
@@ -77,7 +77,7 @@ if not validator.returncode == 0:
     print_msg(1, "===========================================\n")
     exit(1)
 else:
-    print_msg(2, "Validation OK!")
+    print_msg(2, "Validation Passed!")
 
 # Begin!
 print_msg(4, "\nCompiling index...")
@@ -146,10 +146,14 @@ for category in new_index.keys():
         category_apps = new_index[category].keys()
         apps_no += len(category_apps)
 
+git_revision_count = int(subprocess.Popen("git rev-list --count HEAD", shell=True, stdout=subprocess.PIPE).communicate()[0])
+timestamp = int(time.time())
+
 new_index["stats"] = {
     "categories": categories_no,
     "apps": apps_no,
-    "compiled": int(time.time())
+    "compiled": timestamp,
+    "revision": git_revision_count
 }
 
 # Save new index to file
@@ -194,4 +198,8 @@ for locale in locales:
     with open(os.path.join(compiled_folder, "applications-" + locale + ".json"), 'w') as f:
         json.dump(localised_index, f, sort_keys=True)
 
-print_msg(2, "Index compiled.\n")
+print_msg(2, "Index successfully compiled.\n")
+print_msg(2, "        Revision: " + str(git_revision_count))
+print_msg(2, "      Categories: " + str(categories_no))
+print_msg(2, "    Applications: " + str(apps_no))
+print_msg(2, "       Timestamp: " + str(timestamp) + "\n")
