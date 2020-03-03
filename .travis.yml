@@ -4,7 +4,8 @@ python:
 
 script:
 - scripts/test.sh
-- scripts/build-index.py
+- git fetch --unshallow
+- scripts/build.sh
 
 #deploy:
   #skip_cleanup: true

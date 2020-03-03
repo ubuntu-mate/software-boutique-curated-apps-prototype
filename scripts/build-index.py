@@ -84,7 +84,7 @@ else:
     print_msg(2, "Validation Passed!")
 
 # Begin!
-print_msg(4, "\nCompiling index...")
+print_msg(4, "\nCompiling Applications...")
 categories = os.listdir(source_folder)
 categories.sort()
 new_index = {}
@@ -153,7 +153,10 @@ for category in categories:
                 shutil.copyfile(os.path.join(source_dir, filename), os.path.join(compiled_media_folder, new_filename))
                 index["screenshots"].append("assets/" + new_filename)
 
+print_msg(2, "Compiled Applications!\n")
+
 # Compile statistics
+print_msg(4, "Writing: stats")
 categories_no = 0
 apps_no = 0
 for category in new_index.keys():
@@ -175,6 +178,7 @@ new_index["stats"] = {
 
 # Append other JSON files
 for filename in ["distro", "supported"]:
+    print_msg(4, "Writing: " + filename)
     with open(metadata_folder + filename + ".json", "r") as f:
         new_index[filename] = json.load(f)
 
