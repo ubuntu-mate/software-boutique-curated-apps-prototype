@@ -51,6 +51,7 @@ def print_msg(color, string):
 repo_root = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe()) + "/../"))
 source_folder = os.path.join(repo_root, "apps/")
 compiled_folder = os.path.join(repo_root, "dist/")
+compiled_media_folder = os.path.join(repo_root, "dist/assets/")
 localised_folder = os.path.join(repo_root, "locales/")
 
 # Determine locales that have been translated.
@@ -91,8 +92,7 @@ new_index = {}
 if os.path.exists(compiled_folder):
     shutil.rmtree(compiled_folder)
 os.mkdir(compiled_folder)
-for folder in ["icons", "screenshots"]:
-    os.mkdir(compiled_folder + folder)
+os.mkdir(compiled_media_folder)
 
 # Add each application.
 for category in categories:
@@ -137,14 +137,20 @@ for category in categories:
         for key in ["name", "summary", "description"]:
             new_index[category][appid][key] = index[key].replace("'", "&#8217;")
 
-        # Copy image files
+        # Copy application icon
         source_dir = os.path.join(source_folder, category, appid)
-        shutil.copyfile(os.path.join(source_dir, "icon.png"), os.path.join(compiled_folder, "icons", appid + ".png"))
+        shutil.copyfile(os.path.join(source_dir, "icon.png"), os.path.join(compiled_media_folder, appid + ".png"))
+        index["icon"] = "assets/" + appid + ".png"
+
+        # Copy screenshots
         file_list = os.listdir(os.path.join(source_dir))
+        index["screenshots"] = [];
         for filename in file_list:
             if filename.startswith("screenshot-"):
                 screenshot_no = filename.split("-")[1][:1]
-                shutil.copyfile(os.path.join(source_dir, filename), os.path.join(compiled_folder, "screenshots", appid + "-" + str(screenshot_no) + ".jpg"))
+                new_filename = appid + "-" + str(screenshot_no) + ".jpg"
+                shutil.copyfile(os.path.join(source_dir, filename), os.path.join(compiled_media_folder, new_filename))
+                index["screenshots"].append("assets/" + new_filename)
 
 # Compile statistics
 categories_no = 0

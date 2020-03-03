@@ -47,6 +47,14 @@ Each folder is expected to have:
 | apt           | dict      | No        | See **Apt Installs** below.
 | snap          | dict      | No        | See **Snap Installs** below.
 
+The following keys are written when building the index - these should not be
+manually specified:
+
+| Key           | Data Type | Description                          |
+| ------------- | --------- | ------------------------------------ |
+| icon          | string    | Path name of the application's icon.
+| screenshots   | list      | Path name(s) of the screenshots.
+
 
 #### Apt Installs
 
