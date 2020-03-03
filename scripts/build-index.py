@@ -50,6 +50,7 @@ def print_msg(color, string):
 # Paths and Variables
 repo_root = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe()) + "/../"))
 source_folder = os.path.join(repo_root, "apps/")
+metadata_folder = os.path.join(repo_root, "metadata/")
 compiled_folder = os.path.join(repo_root, "dist/")
 compiled_media_folder = os.path.join(repo_root, "dist/assets/")
 localised_folder = os.path.join(repo_root, "locales/")
@@ -171,6 +172,11 @@ new_index["stats"] = {
     "revision": git_revision_count,
     "version": __INDEX_VERSION__
 }
+
+# Append other JSON files
+for filename in ["distro", "supported"]:
+    with open(metadata_folder + filename + ".json", "r") as f:
+        new_index[filename] = json.load(f)
 
 # Save new index to file
 new_index_path = os.path.join(compiled_folder, "applications-en.json")

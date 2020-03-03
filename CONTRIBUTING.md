@@ -55,6 +55,13 @@ manually specified:
 | icon          | string    | Path name of the application's icon.
 | screenshots   | list      | Path name(s) of the screenshots.
 
+For applications and libraries using the index, the root of the JSON file also
+appends:
+
+* `stats`
+* `distro` (metadata/distro.json)
+* `supported` (metadata/supported.json)
+
 
 #### Apt Installs
 
