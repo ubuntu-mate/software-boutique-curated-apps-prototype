@@ -182,6 +182,11 @@ for filename in ["distro", "supported"]:
     with open(metadata_folder + filename + ".json", "r") as f:
         new_index[filename] = json.load(f)
 
+# Copy other assets
+for asset in ["distro-logo.svg", "distro-logo-mono.svg"]:
+    print_msg(4, "Copying: " + asset)
+    shutil.copy(os.path.join(metadata_folder, asset), os.path.join(compiled_folder, asset))
+
 # Save new index to file
 new_index_path = os.path.join(compiled_folder, "applications-en.json")
 with open(new_index_path, 'w') as f:
