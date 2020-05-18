@@ -119,6 +119,7 @@ for category in categories:
                 index["apt"]["default"]
 
             if "snap" in index["methods"]:
+                i = index["snap"]
                 i["name"]
 
         except Exception as reason:
