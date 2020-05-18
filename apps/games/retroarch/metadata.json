@@ -22,7 +22,7 @@
         "zesty",
         "artful"
     ],
-    "methods": ["apt"],
+    "methods": ["apt", "snap"],
     "apt": {
         "default": {
             "main-package": "retroarch",
@@ -37,6 +37,6 @@
         }
     },
     "snap": {
-		"name": null
-	}
+        "name": "retroarch"
+    }
 }
