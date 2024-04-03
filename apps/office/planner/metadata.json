@@ -4,7 +4,7 @@
     "summary": "Scheduling tool and project management application",
     "developer-name": "Brian C. Christensen",
     "developer-url": "http://www.simpleprojectmanagement.com/planner/what.html",
-    "description": "A Project Management application that supports Gantt charts and resource allocation. Among its important features are the definition of tasks with start/end dates and durations, dependancies between tasks, sub-tasks can also be defined, project calendars with holidays, definition of resources, assignment of resources to tasks, resource specific calendars. ",
+    "description": "A Project Management application that supports Gantt charts and resource allocation. Among its important features are the definition of tasks with start/end dates and durations, dependencies between tasks, sub-tasks can also be defined, project calendars with holidays, definition of resources, assignment of resources to tasks, resource specific calendars. ",
     "launch-cmd": "planner",
     "proprietary": false,
     "alternate-to": null,
